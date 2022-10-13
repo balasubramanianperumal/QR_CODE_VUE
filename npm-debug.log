@@ -1,0 +1,2987 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/home/muralimanohar/node_modules/.bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   '@vue/cli-plugin-babel@~4.5.15',
+1 verbose cli   '@vue/cli-plugin-eslint@~4.5.15',
+1 verbose cli   '@vue/cli-service@~4.5.15',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.12
+3 info using node@v10.19.0
+4 verbose install initial load of /home/muralimanohar/Desktop/code/or_code_project/qr_code/package.json
+5 verbose readDependencies loading dependencies from /home/muralimanohar/Desktop/code/or_code_project/qr_code/package.json
+6 silly cache add args [ '@vue/cli-plugin-babel@~4.5.15', null ]
+7 verbose cache add spec @vue/cli-plugin-babel@~4.5.15
+8 silly cache add args [ '@vue/cli-plugin-eslint@~4.5.15', null ]
+9 verbose cache add spec @vue/cli-plugin-eslint@~4.5.15
+10 silly cache add args [ '@vue/cli-service@~4.5.15', null ]
+11 verbose cache add spec @vue/cli-service@~4.5.15
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: '@vue/cli-plugin-babel@~4.5.15',
+12 silly cache add   scope: '@vue',
+12 silly cache add   name: '@vue/cli-plugin-babel',
+12 silly cache add   rawSpec: '~4.5.15',
+12 silly cache add   spec: '>=4.5.15 <4.6.0',
+12 silly cache add   type: 'range' }
+13 silly addNamed @vue/cli-plugin-babel@>=4.5.15 <4.6.0
+14 verbose addNamed ">=4.5.15 <4.6.0" is a valid semver range for @vue/cli-plugin-babel
+15 silly addNameRange { name: '@vue/cli-plugin-babel',
+15 silly addNameRange   range: '>=4.5.15 <4.6.0',
+15 silly addNameRange   hasData: false }
+16 silly mapToRegistry name @vue/cli-plugin-babel
+17 silly mapToRegistry scope (from package name) @vue
+18 verbose mapToRegistry no registry URL found in name for scope @vue
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: '@vue/cli-plugin-babel',
+21 silly mapToRegistry   scope: '@vue',
+21 silly mapToRegistry   name: '@vue/cli-plugin-babel',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli-plugin-babel
+23 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcli-plugin-babel not in flight; fetching
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '@vue/cli-plugin-eslint@~4.5.15',
+24 silly cache add   scope: '@vue',
+24 silly cache add   name: '@vue/cli-plugin-eslint',
+24 silly cache add   rawSpec: '~4.5.15',
+24 silly cache add   spec: '>=4.5.15 <4.6.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed @vue/cli-plugin-eslint@>=4.5.15 <4.6.0
+26 verbose addNamed ">=4.5.15 <4.6.0" is a valid semver range for @vue/cli-plugin-eslint
+27 silly addNameRange { name: '@vue/cli-plugin-eslint',
+27 silly addNameRange   range: '>=4.5.15 <4.6.0',
+27 silly addNameRange   hasData: false }
+28 silly mapToRegistry name @vue/cli-plugin-eslint
+29 silly mapToRegistry scope (from package name) @vue
+30 verbose mapToRegistry no registry URL found in name for scope @vue
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: '@vue/cli-plugin-eslint',
+33 silly mapToRegistry   scope: '@vue',
+33 silly mapToRegistry   name: '@vue/cli-plugin-eslint',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli-plugin-eslint
+35 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcli-plugin-eslint not in flight; fetching
+36 silly cache add parsed spec Result {
+36 silly cache add   raw: '@vue/cli-service@~4.5.15',
+36 silly cache add   scope: '@vue',
+36 silly cache add   name: '@vue/cli-service',
+36 silly cache add   rawSpec: '~4.5.15',
+36 silly cache add   spec: '>=4.5.15 <4.6.0',
+36 silly cache add   type: 'range' }
+37 silly addNamed @vue/cli-service@>=4.5.15 <4.6.0
+38 verbose addNamed ">=4.5.15 <4.6.0" is a valid semver range for @vue/cli-service
+39 silly addNameRange { name: '@vue/cli-service',
+39 silly addNameRange   range: '>=4.5.15 <4.6.0',
+39 silly addNameRange   hasData: false }
+40 silly mapToRegistry name @vue/cli-service
+41 silly mapToRegistry scope (from package name) @vue
+42 verbose mapToRegistry no registry URL found in name for scope @vue
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: '@vue/cli-service',
+45 silly mapToRegistry   scope: '@vue',
+45 silly mapToRegistry   name: '@vue/cli-service',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli-service
+47 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcli-service not in flight; fetching
+48 verbose request uri https://registry.npmjs.org/@vue%2fcli-plugin-babel
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 10:41:03 pm
+51 verbose request id f7be516e236cb372
+52 verbose etag W/"c66353e16a48c104cf3e011fc79f4738"
+53 verbose lastModified Thu, 07 Jul 2022 10:22:09 GMT
+54 http request GET https://registry.npmjs.org/@vue%2fcli-plugin-babel
+55 verbose request uri https://registry.npmjs.org/@vue%2fcli-plugin-eslint
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 10:41:03 pm
+58 verbose etag W/"6161ca0bfeb890a845c8b939ec1f91f1"
+59 verbose lastModified Thu, 07 Jul 2022 10:22:08 GMT
+60 http request GET https://registry.npmjs.org/@vue%2fcli-plugin-eslint
+61 verbose request uri https://registry.npmjs.org/@vue%2fcli-service
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 10:41:03 pm
+64 verbose etag W/"6e6fb7e8171f9bcd71db32eca62c1399"
+65 verbose lastModified Thu, 07 Jul 2022 10:22:11 GMT
+66 http request GET https://registry.npmjs.org/@vue%2fcli-service
+67 http 304 https://registry.npmjs.org/@vue%2fcli-plugin-babel
+68 verbose headers { date: 'Thu, 13 Oct 2022 17:11:01 GMT',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'cf-ray': '7599b127fdc99380-MAA',
+68 verbose headers   'cache-control': 'public, max-age=300',
+68 verbose headers   etag: '"c66353e16a48c104cf3e011fc79f4738"',
+68 verbose headers   'last-modified': 'Thu, 07 Jul 2022 10:22:09 GMT',
+68 verbose headers   vary: 'Accept-Encoding',
+68 verbose headers   'cf-cache-status': 'REVALIDATED',
+68 verbose headers   'x-amz-replication-status': 'COMPLETED',
+68 verbose headers   server: 'cloudflare' }
+69 silly get cb [ 304,
+69 silly get   { date: 'Thu, 13 Oct 2022 17:11:01 GMT',
+69 silly get     connection: 'keep-alive',
+69 silly get     'cf-ray': '7599b127fdc99380-MAA',
+69 silly get     'cache-control': 'public, max-age=300',
+69 silly get     etag: '"c66353e16a48c104cf3e011fc79f4738"',
+69 silly get     'last-modified': 'Thu, 07 Jul 2022 10:22:09 GMT',
+69 silly get     vary: 'Accept-Encoding',
+69 silly get     'cf-cache-status': 'REVALIDATED',
+69 silly get     'x-amz-replication-status': 'COMPLETED',
+69 silly get     server: 'cloudflare' } ]
+70 verbose etag https://registry.npmjs.org/@vue%2fcli-plugin-babel from cache
+71 verbose get saving @vue/cli-plugin-babel to /home/muralimanohar/.npm/registry.npmjs.org/_40vue_252fcli-plugin-babel/.cache.json
+72 verbose correctMkdir /home/muralimanohar/.npm correctMkdir not in flight; initializing
+73 silly addNameRange number 2 { name: '@vue/cli-plugin-babel',
+73 silly addNameRange   range: '>=4.5.15 <4.6.0',
+73 silly addNameRange   hasData: true }
+74 silly addNameRange versions [ '@vue/cli-plugin-babel',
+74 silly addNameRange   [ '3.0.0-alpha.1',
+74 silly addNameRange     '3.0.0-alpha.2',
+74 silly addNameRange     '3.0.0-alpha.3',
+74 silly addNameRange     '3.0.0-alpha.4',
+74 silly addNameRange     '3.0.0-alpha.5',
+74 silly addNameRange     '3.0.0-alpha.6',
+74 silly addNameRange     '3.0.0-alpha.7',
+74 silly addNameRange     '3.0.0-alpha.8',
+74 silly addNameRange     '3.0.0-alpha.9',
+74 silly addNameRange     '3.0.0-alpha.10',
+74 silly addNameRange     '3.0.0-alpha.11',
+74 silly addNameRange     '3.0.0-alpha.12',
+74 silly addNameRange     '3.0.0-alpha.13',
+74 silly addNameRange     '3.0.0-beta.1',
+74 silly addNameRange     '3.0.0-beta.2',
+74 silly addNameRange     '3.0.0-beta.3',
+74 silly addNameRange     '3.0.0-beta.4',
+74 silly addNameRange     '3.0.0-beta.5',
+74 silly addNameRange     '3.0.0-beta.6',
+74 silly addNameRange     '3.0.0-beta.7',
+74 silly addNameRange     '3.0.0-beta.8',
+74 silly addNameRange     '3.0.0-beta.9',
+74 silly addNameRange     '3.0.0-beta.10',
+74 silly addNameRange     '3.0.0-beta.11',
+74 silly addNameRange     '3.0.0-beta.12',
+74 silly addNameRange     '3.0.0-beta.13',
+74 silly addNameRange     '3.0.0-beta.14',
+74 silly addNameRange     '3.0.0-beta.15',
+74 silly addNameRange     '3.0.0-beta.16',
+74 silly addNameRange     '3.0.0-rc.1',
+74 silly addNameRange     '3.0.0-rc.2',
+74 silly addNameRange     '3.0.0-rc.3',
+74 silly addNameRange     '3.0.0-rc.4',
+74 silly addNameRange     '3.0.0-rc.5',
+74 silly addNameRange     '3.0.0-rc.6',
+74 silly addNameRange     '3.0.0-rc.7',
+74 silly addNameRange     '3.0.0-rc.8',
+74 silly addNameRange     '3.0.0-rc.9',
+74 silly addNameRange     '3.0.0-rc.10',
+74 silly addNameRange     '3.0.0-rc.11',
+74 silly addNameRange     '3.0.0-rc.12',
+74 silly addNameRange     '3.0.0',
+74 silly addNameRange     '3.0.1',
+74 silly addNameRange     '3.0.2',
+74 silly addNameRange     '3.0.3',
+74 silly addNameRange     '3.0.4',
+74 silly addNameRange     '3.0.5',
+74 silly addNameRange     '3.1.0',
+74 silly addNameRange     '3.1.1',
+74 silly addNameRange     '3.2.0',
+74 silly addNameRange     '3.2.2',
+74 silly addNameRange     '3.3.0',
+74 silly addNameRange     '3.4.0',
+74 silly addNameRange     '3.4.1',
+74 silly addNameRange     '3.5.0',
+74 silly addNameRange     '3.5.1',
+74 silly addNameRange     '3.5.3',
+74 silly addNameRange     '3.5.4',
+74 silly addNameRange     '3.5.5',
+74 silly addNameRange     '3.6.0',
+74 silly addNameRange     '3.7.0',
+74 silly addNameRange     '4.0.0-alpha.0',
+74 silly addNameRange     '4.0.0-alpha.1',
+74 silly addNameRange     '3.8.0',
+74 silly addNameRange     '4.0.0-alpha.2',
+74 silly addNameRange     '3.9.0',
+74 silly addNameRange     '4.0.0-alpha.3',
+74 silly addNameRange     '3.9.2',
+74 silly addNameRange     '4.0.0-alpha.4',
+74 silly addNameRange     '4.0.0-alpha.5',
+74 silly addNameRange     '4.0.0-beta.0',
+74 silly addNameRange     '4.0.0-beta.1',
+74 silly addNameRange     '4.0.0-beta.2',
+74 silly addNameRange     '3.10.0',
+74 silly addNameRange     '4.0.0-beta.3',
+74 silly addNameRange     '4.0.0-rc.0',
+74 silly addNameRange     '3.11.0',
+74 silly addNameRange     '4.0.0-rc.1',
+74 silly addNameRange     '4.0.0-rc.2',
+74 silly addNameRange     '4.0.0-rc.3',
+74 silly addNameRange     '4.0.0-rc.4',
+74 silly addNameRange     '4.0.0-rc.5',
+74 silly addNameRange     '4.0.0-rc.6',
+74 silly addNameRange     '4.0.0-rc.7',
+74 silly addNameRange     '3.12.0',
+74 silly addNameRange     '4.0.0-rc.8',
+74 silly addNameRange     '4.0.0',
+74 silly addNameRange     '4.0.2',
+74 silly addNameRange     '4.0.3',
+74 silly addNameRange     '4.0.4',
+74 silly addNameRange     '3.12.1',
+74 silly addNameRange     '4.0.5',
+74 silly addNameRange     '4.1.0-beta.0',
+74 silly addNameRange     '4.1.0',
+74 silly addNameRange     '4.1.1',
+74 silly addNameRange     '4.1.2',
+74 silly addNameRange     '4.2.0',
+74 silly addNameRange     '4.2.1',
+74 silly addNameRange     '4.2.2',
+74 silly addNameRange     '4.2.3',
+74 silly addNameRange     ... 59 more items ] ]
+75 silly addNamed @vue/cli-plugin-babel@4.5.19
+76 verbose addNamed "4.5.19" is a plain semver version for @vue/cli-plugin-babel
+77 silly cache afterAdd @vue/cli-plugin-babel@4.5.19
+78 verbose afterAdd /home/muralimanohar/.npm/@vue/cli-plugin-babel/4.5.19/package/package.json not in flight; writing
+79 verbose correctMkdir /home/muralimanohar/.npm correctMkdir not in flight; initializing
+80 verbose afterAdd /home/muralimanohar/.npm/@vue/cli-plugin-babel/4.5.19/package/package.json written
+81 http 304 https://registry.npmjs.org/@vue%2fcli-service
+82 verbose headers { date: 'Thu, 13 Oct 2022 17:11:04 GMT',
+82 verbose headers   connection: 'keep-alive',
+82 verbose headers   'cf-ray': '7599b12e58518ad5-DEL',
+82 verbose headers   'cache-control': 'public, max-age=300',
+82 verbose headers   etag: '"6e6fb7e8171f9bcd71db32eca62c1399"',
+82 verbose headers   'last-modified': 'Thu, 07 Jul 2022 10:22:11 GMT',
+82 verbose headers   vary: 'Accept-Encoding',
+82 verbose headers   'cf-cache-status': 'REVALIDATED',
+82 verbose headers   'x-amz-replication-status': 'COMPLETED',
+82 verbose headers   server: 'cloudflare' }
+83 silly get cb [ 304,
+83 silly get   { date: 'Thu, 13 Oct 2022 17:11:04 GMT',
+83 silly get     connection: 'keep-alive',
+83 silly get     'cf-ray': '7599b12e58518ad5-DEL',
+83 silly get     'cache-control': 'public, max-age=300',
+83 silly get     etag: '"6e6fb7e8171f9bcd71db32eca62c1399"',
+83 silly get     'last-modified': 'Thu, 07 Jul 2022 10:22:11 GMT',
+83 silly get     vary: 'Accept-Encoding',
+83 silly get     'cf-cache-status': 'REVALIDATED',
+83 silly get     'x-amz-replication-status': 'COMPLETED',
+83 silly get     server: 'cloudflare' } ]
+84 verbose etag https://registry.npmjs.org/@vue%2fcli-service from cache
+85 verbose get saving @vue/cli-service to /home/muralimanohar/.npm/registry.npmjs.org/_40vue_252fcli-service/.cache.json
+86 verbose correctMkdir /home/muralimanohar/.npm correctMkdir not in flight; initializing
+87 silly addNameRange number 2 { name: '@vue/cli-service',
+87 silly addNameRange   range: '>=4.5.15 <4.6.0',
+87 silly addNameRange   hasData: true }
+88 silly addNameRange versions [ '@vue/cli-service',
+88 silly addNameRange   [ '3.0.0-alpha.1',
+88 silly addNameRange     '3.0.0-alpha.2',
+88 silly addNameRange     '3.0.0-alpha.3',
+88 silly addNameRange     '3.0.0-alpha.4',
+88 silly addNameRange     '3.0.0-alpha.5',
+88 silly addNameRange     '3.0.0-alpha.6',
+88 silly addNameRange     '3.0.0-alpha.7',
+88 silly addNameRange     '3.0.0-alpha.8',
+88 silly addNameRange     '3.0.0-alpha.9',
+88 silly addNameRange     '3.0.0-alpha.10',
+88 silly addNameRange     '3.0.0-alpha.11',
+88 silly addNameRange     '3.0.0-alpha.12',
+88 silly addNameRange     '3.0.0-alpha.13',
+88 silly addNameRange     '3.0.0-beta.1',
+88 silly addNameRange     '3.0.0-beta.2',
+88 silly addNameRange     '3.0.0-beta.3',
+88 silly addNameRange     '3.0.0-beta.4',
+88 silly addNameRange     '3.0.0-beta.5',
+88 silly addNameRange     '3.0.0-beta.6',
+88 silly addNameRange     '3.0.0-beta.7',
+88 silly addNameRange     '3.0.0-beta.8',
+88 silly addNameRange     '3.0.0-beta.9',
+88 silly addNameRange     '3.0.0-beta.10',
+88 silly addNameRange     '3.0.0-beta.11',
+88 silly addNameRange     '3.0.0-beta.12',
+88 silly addNameRange     '3.0.0-beta.13',
+88 silly addNameRange     '3.0.0-beta.14',
+88 silly addNameRange     '3.0.0-beta.15',
+88 silly addNameRange     '3.0.0-beta.16',
+88 silly addNameRange     '3.0.0-rc.1',
+88 silly addNameRange     '3.0.0-rc.2',
+88 silly addNameRange     '3.0.0-rc.3',
+88 silly addNameRange     '3.0.0-rc.4',
+88 silly addNameRange     '3.0.0-rc.5',
+88 silly addNameRange     '3.0.0-rc.6',
+88 silly addNameRange     '3.0.0-rc.7',
+88 silly addNameRange     '3.0.0-rc.8',
+88 silly addNameRange     '3.0.0-rc.9',
+88 silly addNameRange     '3.0.0-rc.10',
+88 silly addNameRange     '3.0.0-rc.11',
+88 silly addNameRange     '3.0.0-rc.12',
+88 silly addNameRange     '3.0.0',
+88 silly addNameRange     '3.0.1',
+88 silly addNameRange     '3.0.2',
+88 silly addNameRange     '3.0.3',
+88 silly addNameRange     '3.0.4',
+88 silly addNameRange     '3.0.5',
+88 silly addNameRange     '3.1.0',
+88 silly addNameRange     '3.1.1',
+88 silly addNameRange     '3.1.2',
+88 silly addNameRange     '3.1.3',
+88 silly addNameRange     '3.1.4',
+88 silly addNameRange     '3.2.0',
+88 silly addNameRange     '3.2.2',
+88 silly addNameRange     '3.2.3',
+88 silly addNameRange     '3.3.0',
+88 silly addNameRange     '3.3.1',
+88 silly addNameRange     '3.4.0',
+88 silly addNameRange     '3.4.1',
+88 silly addNameRange     '3.5.0',
+88 silly addNameRange     '3.5.1',
+88 silly addNameRange     '3.5.2',
+88 silly addNameRange     '3.5.3',
+88 silly addNameRange     '3.6.0',
+88 silly addNameRange     '3.7.0',
+88 silly addNameRange     '4.0.0-alpha.0',
+88 silly addNameRange     '4.0.0-alpha.1',
+88 silly addNameRange     '3.8.0',
+88 silly addNameRange     '3.8.3',
+88 silly addNameRange     '3.8.4',
+88 silly addNameRange     '4.0.0-alpha.2',
+88 silly addNameRange     '3.9.0',
+88 silly addNameRange     '4.0.0-alpha.3',
+88 silly addNameRange     '3.9.2',
+88 silly addNameRange     '4.0.0-alpha.4',
+88 silly addNameRange     '4.0.0-alpha.5',
+88 silly addNameRange     '3.9.3',
+88 silly addNameRange     '4.0.0-beta.0',
+88 silly addNameRange     '4.0.0-beta.1',
+88 silly addNameRange     '4.0.0-beta.2',
+88 silly addNameRange     '3.10.0',
+88 silly addNameRange     '4.0.0-beta.3',
+88 silly addNameRange     '4.0.0-rc.0',
+88 silly addNameRange     '3.11.0',
+88 silly addNameRange     '4.0.0-rc.1',
+88 silly addNameRange     '4.0.0-rc.2',
+88 silly addNameRange     '4.0.0-rc.3',
+88 silly addNameRange     '4.0.0-rc.4',
+88 silly addNameRange     '4.0.0-rc.5',
+88 silly addNameRange     '4.0.0-rc.6',
+88 silly addNameRange     '4.0.0-rc.7',
+88 silly addNameRange     '3.12.0',
+88 silly addNameRange     '4.0.0-rc.8',
+88 silly addNameRange     '4.0.0',
+88 silly addNameRange     '4.0.2',
+88 silly addNameRange     '4.0.3',
+88 silly addNameRange     '4.0.4',
+88 silly addNameRange     '3.12.1',
+88 silly addNameRange     '4.0.5',
+88 silly addNameRange     '4.1.0-beta.0',
+88 silly addNameRange     ... 65 more items ] ]
+89 silly addNamed @vue/cli-service@4.5.19
+90 verbose addNamed "4.5.19" is a plain semver version for @vue/cli-service
+91 silly cache afterAdd @vue/cli-service@4.5.19
+92 verbose afterAdd /home/muralimanohar/.npm/@vue/cli-service/4.5.19/package/package.json not in flight; writing
+93 verbose correctMkdir /home/muralimanohar/.npm correctMkdir not in flight; initializing
+94 verbose afterAdd /home/muralimanohar/.npm/@vue/cli-service/4.5.19/package/package.json written
+95 http 304 https://registry.npmjs.org/@vue%2fcli-plugin-eslint
+96 verbose headers { date: 'Thu, 13 Oct 2022 17:11:05 GMT',
+96 verbose headers   connection: 'keep-alive',
+96 verbose headers   'cf-ray': '7599b13198991bda-DEL',
+96 verbose headers   'cache-control': 'public, max-age=300',
+96 verbose headers   etag: '"6161ca0bfeb890a845c8b939ec1f91f1"',
+96 verbose headers   'last-modified': 'Thu, 07 Jul 2022 10:22:08 GMT',
+96 verbose headers   vary: 'Accept-Encoding',
+96 verbose headers   'cf-cache-status': 'REVALIDATED',
+96 verbose headers   'x-amz-replication-status': 'COMPLETED',
+96 verbose headers   server: 'cloudflare' }
+97 silly get cb [ 304,
+97 silly get   { date: 'Thu, 13 Oct 2022 17:11:05 GMT',
+97 silly get     connection: 'keep-alive',
+97 silly get     'cf-ray': '7599b13198991bda-DEL',
+97 silly get     'cache-control': 'public, max-age=300',
+97 silly get     etag: '"6161ca0bfeb890a845c8b939ec1f91f1"',
+97 silly get     'last-modified': 'Thu, 07 Jul 2022 10:22:08 GMT',
+97 silly get     vary: 'Accept-Encoding',
+97 silly get     'cf-cache-status': 'REVALIDATED',
+97 silly get     'x-amz-replication-status': 'COMPLETED',
+97 silly get     server: 'cloudflare' } ]
+98 verbose etag https://registry.npmjs.org/@vue%2fcli-plugin-eslint from cache
+99 verbose get saving @vue/cli-plugin-eslint to /home/muralimanohar/.npm/registry.npmjs.org/_40vue_252fcli-plugin-eslint/.cache.json
+100 verbose correctMkdir /home/muralimanohar/.npm correctMkdir not in flight; initializing
+101 silly addNameRange number 2 { name: '@vue/cli-plugin-eslint',
+101 silly addNameRange   range: '>=4.5.15 <4.6.0',
+101 silly addNameRange   hasData: true }
+102 silly addNameRange versions [ '@vue/cli-plugin-eslint',
+102 silly addNameRange   [ '3.0.0-alpha.1',
+102 silly addNameRange     '3.0.0-alpha.2',
+102 silly addNameRange     '3.0.0-alpha.3',
+102 silly addNameRange     '3.0.0-alpha.4',
+102 silly addNameRange     '3.0.0-alpha.5',
+102 silly addNameRange     '3.0.0-alpha.6',
+102 silly addNameRange     '3.0.0-alpha.7',
+102 silly addNameRange     '3.0.0-alpha.8',
+102 silly addNameRange     '3.0.0-alpha.9',
+102 silly addNameRange     '3.0.0-alpha.10',
+102 silly addNameRange     '3.0.0-alpha.11',
+102 silly addNameRange     '3.0.0-alpha.12',
+102 silly addNameRange     '3.0.0-alpha.13',
+102 silly addNameRange     '3.0.0-beta.1',
+102 silly addNameRange     '3.0.0-beta.2',
+102 silly addNameRange     '3.0.0-beta.3',
+102 silly addNameRange     '3.0.0-beta.4',
+102 silly addNameRange     '3.0.0-beta.5',
+102 silly addNameRange     '3.0.0-beta.6',
+102 silly addNameRange     '3.0.0-beta.7',
+102 silly addNameRange     '3.0.0-beta.8',
+102 silly addNameRange     '3.0.0-beta.9',
+102 silly addNameRange     '3.0.0-beta.10',
+102 silly addNameRange     '3.0.0-beta.11',
+102 silly addNameRange     '3.0.0-beta.12',
+102 silly addNameRange     '3.0.0-beta.13',
+102 silly addNameRange     '3.0.0-beta.14',
+102 silly addNameRange     '3.0.0-beta.15',
+102 silly addNameRange     '3.0.0-beta.16',
+102 silly addNameRange     '3.0.0-rc.1',
+102 silly addNameRange     '3.0.0-rc.2',
+102 silly addNameRange     '3.0.0-rc.3',
+102 silly addNameRange     '3.0.0-rc.4',
+102 silly addNameRange     '3.0.0-rc.5',
+102 silly addNameRange     '3.0.0-rc.6',
+102 silly addNameRange     '3.0.0-rc.7',
+102 silly addNameRange     '3.0.0-rc.8',
+102 silly addNameRange     '3.0.0-rc.9',
+102 silly addNameRange     '3.0.0-rc.10',
+102 silly addNameRange     '3.0.0-rc.11',
+102 silly addNameRange     '3.0.0-rc.12',
+102 silly addNameRange     '3.0.0',
+102 silly addNameRange     '3.0.1',
+102 silly addNameRange     '3.0.2',
+102 silly addNameRange     '3.0.3',
+102 silly addNameRange     '3.0.4',
+102 silly addNameRange     '3.0.5',
+102 silly addNameRange     '3.1.0',
+102 silly addNameRange     '3.1.1',
+102 silly addNameRange     '3.1.2',
+102 silly addNameRange     '3.1.3',
+102 silly addNameRange     '3.1.4',
+102 silly addNameRange     '3.1.5',
+102 silly addNameRange     '3.2.0',
+102 silly addNameRange     '3.2.1',
+102 silly addNameRange     '3.2.2',
+102 silly addNameRange     '3.3.0',
+102 silly addNameRange     '3.4.0',
+102 silly addNameRange     '3.4.1',
+102 silly addNameRange     '3.5.0',
+102 silly addNameRange     '3.5.1',
+102 silly addNameRange     '3.6.0',
+102 silly addNameRange     '3.7.0',
+102 silly addNameRange     '4.0.0-alpha.0',
+102 silly addNameRange     '4.0.0-alpha.1',
+102 silly addNameRange     '3.8.0',
+102 silly addNameRange     '4.0.0-alpha.2',
+102 silly addNameRange     '3.9.0',
+102 silly addNameRange     '3.9.1',
+102 silly addNameRange     '4.0.0-alpha.3',
+102 silly addNameRange     '3.9.2',
+102 silly addNameRange     '4.0.0-alpha.4',
+102 silly addNameRange     '4.0.0-alpha.5',
+102 silly addNameRange     '4.0.0-beta.0',
+102 silly addNameRange     '4.0.0-beta.1',
+102 silly addNameRange     '4.0.0-beta.2',
+102 silly addNameRange     '3.10.0',
+102 silly addNameRange     '4.0.0-beta.3',
+102 silly addNameRange     '4.0.0-rc.0',
+102 silly addNameRange     '3.11.0',
+102 silly addNameRange     '4.0.0-rc.1',
+102 silly addNameRange     '4.0.0-rc.2',
+102 silly addNameRange     '4.0.0-rc.3',
+102 silly addNameRange     '4.0.0-rc.4',
+102 silly addNameRange     '4.0.0-rc.5',
+102 silly addNameRange     '4.0.0-rc.6',
+102 silly addNameRange     '4.0.0-rc.7',
+102 silly addNameRange     '3.12.0',
+102 silly addNameRange     '4.0.0-rc.8',
+102 silly addNameRange     '4.0.0',
+102 silly addNameRange     '4.0.1',
+102 silly addNameRange     '4.0.2',
+102 silly addNameRange     '4.0.3',
+102 silly addNameRange     '4.0.4',
+102 silly addNameRange     '3.12.1',
+102 silly addNameRange     '4.0.5',
+102 silly addNameRange     '4.1.0-beta.0',
+102 silly addNameRange     '4.1.0',
+102 silly addNameRange     '4.1.1',
+102 silly addNameRange     '4.1.2',
+102 silly addNameRange     ... 63 more items ] ]
+103 silly addNamed @vue/cli-plugin-eslint@4.5.19
+104 verbose addNamed "4.5.19" is a plain semver version for @vue/cli-plugin-eslint
+105 silly cache afterAdd @vue/cli-plugin-eslint@4.5.19
+106 verbose afterAdd /home/muralimanohar/.npm/@vue/cli-plugin-eslint/4.5.19/package/package.json not in flight; writing
+107 verbose correctMkdir /home/muralimanohar/.npm correctMkdir not in flight; initializing
+108 verbose afterAdd /home/muralimanohar/.npm/@vue/cli-plugin-eslint/4.5.19/package/package.json written
+109 silly install resolved [ { name: '@vue/cli-plugin-babel',
+109 silly install resolved     version: '4.5.19',
+109 silly install resolved     description: 'babel plugin for vue-cli',
+109 silly install resolved     main: 'index.js',
+109 silly install resolved     repository:
+109 silly install resolved      { type: 'git',
+109 silly install resolved        url: 'git+https://github.com/vuejs/vue-cli.git',
+109 silly install resolved        directory: 'packages/@vue/cli-plugin-babel' },
+109 silly install resolved     keywords: [ 'vue', 'cli', 'babel' ],
+109 silly install resolved     author: { name: 'Evan You' },
+109 silly install resolved     license: 'MIT',
+109 silly install resolved     bugs: { url: 'https://github.com/vuejs/vue-cli/issues' },
+109 silly install resolved     homepage:
+109 silly install resolved      'https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-babel#readme',
+109 silly install resolved     dependencies:
+109 silly install resolved      { '@babel/core': '^7.11.0',
+109 silly install resolved        '@vue/babel-preset-app': '^4.5.19',
+109 silly install resolved        '@vue/cli-shared-utils': '^4.5.19',
+109 silly install resolved        'babel-loader': '^8.1.0',
+109 silly install resolved        'cache-loader': '^4.1.0',
+109 silly install resolved        'thread-loader': '^2.1.3',
+109 silly install resolved        webpack: '^4.0.0' },
+109 silly install resolved     peerDependencies: { '@vue/cli-service': '^3.0.0 || ^4.0.0-0' },
+109 silly install resolved     devDependencies: { jscodeshift: '^0.10.0' },
+109 silly install resolved     publishConfig: { access: 'public' },
+109 silly install resolved     gitHead: 'bef7a67566585876d56fa0e41b364675467bba8f',
+109 silly install resolved     _id: '@vue/cli-plugin-babel@4.5.19',
+109 silly install resolved     _nodeVersion: '16.15.0',
+109 silly install resolved     _npmVersion: 'lerna/3.22.1/node@v16.15.0+arm64 (darwin)',
+109 silly install resolved     dist:
+109 silly install resolved      { integrity:
+109 silly install resolved         'sha512-8ebXzaMW9KNTMAN6+DzkhFsjty1ieqT7hIW5Lbk4v30Qhfjkms7lBWyXPGkoq+wAikXFa1Gnam2xmWOBqDDvWg==',
+109 silly install resolved        shasum: '288b32e69f0191a77369e88f071c0cd8036edfa7',
+109 silly install resolved        tarball:
+109 silly install resolved         'https://registry.npmjs.org/@vue/cli-plugin-babel/-/cli-plugin-babel-4.5.19.tgz',
+109 silly install resolved        fileCount: 9,
+109 silly install resolved        unpackedSize: 9970,
+109 silly install resolved        signatures: [Array],
+109 silly install resolved        'npm-signature':
+109 silly install resolved         '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiuoEYACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqenA//VkNd9gMJD83HMoTmOsDxuo4lqEfPOgV7KbQAb6rZn8aLARlY\r\nM8PHCFsV/t5+Sa9SL84QHVdM4uF4HhtgdVveU6WoUql9b8CJ5aD8SfcZRf4P\r\ntlgK8LDx1sMJtk9gJPWghKv19d6tm+u6gpGmOukRVra3AZwX5TpHwh920jtj\r\ntMekEK5eGpmkI52tBPC5hzU1soKpQVgyTSNXmLMyJnltkoIHQyiQ00U9A+0+\r\nYHHVJR+9ujMrBJ2bbVO8Lu0B2BusaIL+nzO1+Ys7jafN6TX7SSCk9W9RJ3nB\r\ncaB4BhJy6rHzrBMFX94A69C1amUQSgPW14rA6gcYmYRpDa+psgHWm284vDyx\r\n53XFsZS0Z/9Ey9kf8j2hnR6/075f0S8QXPH2NgzqbG9XUFATOeTlCFpKGe7v\r\n0Co9po3NE+HyBQsVYsMHmXYHl4KHXzRUpPffEE+K25V4TgX/l8oREvb/y+V/\r\ngkHac5dXKzrSPMmlVDAOhhRLAs2SIgSS4WDv2a6ukU5qIotM+S6s82m2vHli\r\n3vrz9GQRl8gBRp2o8gOxcOcxOcr37Y+yPiysltkhn9ehLCu79E0Tel9XzHwj\r\nDDtlgQisBaM4nlXlsPPQfOmeoHVhdYcDiXSgWxYVtvMrbrHmJHVmGAncAYBQ\r\nEnV1Sm73XNEfXjhk/8CAk4owOsxdnMqHWYE=\r\n=RtPl\r\n-----END PGP SIGNATURE-----\r\n' },
+109 silly install resolved     _npmUser: { name: 'soda', email: 'haoqunjiang+npm@gmail.com' },
+109 silly install resolved     directories: {},
+109 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+109 silly install resolved     _npmOperationalInternal:
+109 silly install resolved      { host: 's3://npm-registry-packages',
+109 silly install resolved        tmp:
+109 silly install resolved         'tmp/cli-plugin-babel_4.5.19_1656389912505_0.7459753176310966' },
+109 silly install resolved     _hasShrinkwrap: false,
+109 silly install resolved     _shasum: '288b32e69f0191a77369e88f071c0cd8036edfa7',
+109 silly install resolved     _resolved:
+109 silly install resolved      'https://registry.npmjs.org/@vue/cli-plugin-babel/-/cli-plugin-babel-4.5.19.tgz',
+109 silly install resolved     _from: '@vue/cli-plugin-babel@>=4.5.15 <4.6.0',
+109 silly install resolved     readme: 'ERROR: No README data found!' },
+109 silly install resolved   { name: '@vue/cli-service',
+109 silly install resolved     version: '4.5.19',
+109 silly install resolved     description: 'local service for vue-cli projects',
+109 silly install resolved     main: 'lib/Service.js',
+109 silly install resolved     typings: 'types/index.d.ts',
+109 silly install resolved     bin: { 'vue-cli-service': 'bin/vue-cli-service.js' },
+109 silly install resolved     repository:
+109 silly install resolved      { type: 'git',
+109 silly install resolved        url: 'git+https://github.com/vuejs/vue-cli.git',
+109 silly install resolved        directory: 'packages/@vue/cli-service' },
+109 silly install resolved     keywords: [ 'vue', 'cli' ],
+109 silly install resolved     author: { name: 'Evan You' },
+109 silly install resolved     license: 'MIT',
+109 silly install resolved     bugs: { url: 'https://github.com/vuejs/vue-cli/issues' },
+109 silly install resolved     homepage: 'https://cli.vuejs.org/',
+109 silly install resolved     dependencies:
+109 silly install resolved      { '@intervolga/optimize-cssnano-plugin': '^1.0.5',
+109 silly install resolved        '@soda/friendly-errors-webpack-plugin': '^1.7.1',
+109 silly install resolved        '@soda/get-current-script': '^1.0.0',
+109 silly install resolved        '@types/minimist': '^1.2.0',
+109 silly install resolved        '@types/webpack': '^4.0.0',
+109 silly install resolved        '@types/webpack-dev-server': '^3.11.0',
+109 silly install resolved        '@vue/cli-overlay': '^4.5.19',
+109 silly install resolved        '@vue/cli-plugin-router': '^4.5.19',
+109 silly install resolved        '@vue/cli-plugin-vuex': '^4.5.19',
+109 silly install resolved        '@vue/cli-shared-utils': '^4.5.19',
+109 silly install resolved        '@vue/component-compiler-utils': '^3.1.2',
+109 silly install resolved        '@vue/preload-webpack-plugin': '^1.1.0',
+109 silly install resolved        '@vue/web-component-wrapper': '^1.2.0',
+109 silly install resolved        acorn: '^7.4.0',
+109 silly install resolved        'acorn-walk': '^7.1.1',
+109 silly install resolved        address: '^1.1.2',
+109 silly install resolved        autoprefixer: '^9.8.6',
+109 silly install resolved        browserslist: '^4.12.0',
+109 silly install resolved        'cache-loader': '^4.1.0',
+109 silly install resolved        'case-sensitive-paths-webpack-plugin': '^2.3.0',
+109 silly install resolved        'cli-highlight': '^2.1.4',
+109 silly install resolved        clipboardy: '^2.3.0',
+109 silly install resolved        cliui: '^6.0.0',
+109 silly install resolved        'copy-webpack-plugin': '^5.1.1',
+109 silly install resolved        'css-loader': '^3.5.3',
+109 silly install resolved        cssnano: '^4.1.10',
+109 silly install resolved        debug: '^4.1.1',
+109 silly install resolved        'default-gateway': '^5.0.5',
+109 silly install resolved        dotenv: '^8.2.0',
+109 silly install resolved        'dotenv-expand': '^5.1.0',
+109 silly install resolved        'file-loader': '^4.2.0',
+109 silly install resolved        'fs-extra': '^7.0.1',
+109 silly install resolved        globby: '^9.2.0',
+109 silly install resolved        'hash-sum': '^2.0.0',
+109 silly install resolved        'html-webpack-plugin': '^3.2.0',
+109 silly install resolved        'launch-editor-middleware': '^2.2.1',
+109 silly install resolved        'lodash.defaultsdeep': '^4.6.1',
+109 silly install resolved        'lodash.mapvalues': '^4.6.0',
+109 silly install resolved        'lodash.transform': '^4.6.0',
+109 silly install resolved        'mini-css-extract-plugin': '^0.9.0',
+109 silly install resolved        minimist: '^1.2.5',
+109 silly install resolved        'pnp-webpack-plugin': '^1.6.4',
+109 silly install resolved        portfinder: '^1.0.26',
+109 silly install resolved        'postcss-loader': '^3.0.0',
+109 silly install resolved        ssri: '^8.0.1',
+109 silly install resolved        'terser-webpack-plugin': '^1.4.4',
+109 silly install resolved        'thread-loader': '^2.1.3',
+109 silly install resolved        'url-loader': '^2.2.0',
+109 silly install resolved        'vue-loader': '^15.9.2',
+109 silly install resolved        'vue-style-loader': '^4.1.2',
+109 silly install resolved        webpack: '^4.0.0',
+109 silly install resolved        'webpack-bundle-analyzer': '^3.8.0',
+109 silly install resolved        'webpack-chain': '^6.4.0',
+109 silly install resolved        'webpack-dev-server': '^3.11.0',
+109 silly install resolved        'webpack-merge': '^4.2.2',
+109 silly install resolved        'vue-loader-v16': 'npm:vue-loader@^16.1.0' },
+109 silly install resolved     optionalDependencies: { 'vue-loader-v16': 'npm:vue-loader@^16.1.0' },
+109 silly install resolved     peerDependencies:
+109 silly install resolved      { '@vue/compiler-sfc': '^3.0.0-beta.14',
+109 silly install resolved        'vue-template-compiler': '^2.0.0' },
+109 silly install resolved     peerDependenciesMeta:
+109 silly install resolved      { '@vue/compiler-sfc': [Object],
+109 silly install resolved        'less-loader': [Object],
+109 silly install resolved        'pug-plain-loader': [Object],
+109 silly install resolved        'raw-loader': [Object],
+109 silly install resolved        'sass-loader': [Object],
+109 silly install resolved        'stylus-loader': [Object],
+109 silly install resolved        'vue-template-compiler': [Object] },
+109 silly install resolved     devDependencies:
+109 silly install resolved      { fibers: '>= 3.1.1 <5.0.0',
+109 silly install resolved        sass: '^1.26.5',
+109 silly install resolved        'sass-loader': '^8.0.2',
+109 silly install resolved        vue: '^2.6.11',
+109 silly install resolved        'vue-router': '^3.2.0',
+109 silly install resolved        'vue-template-compiler': '^2.6.11',
+109 silly install resolved        vuex: '^3.4.0' },
+109 silly install resolved     publishConfig: { access: 'public' },
+109 silly install resolved     engines: { node: '>=8' },
+109 silly install resolved     gitHead: 'bef7a67566585876d56fa0e41b364675467bba8f',
+109 silly install resolved     _id: '@vue/cli-service@4.5.19',
+109 silly install resolved     _nodeVersion: '16.15.0',
+109 silly install resolved     _npmVersion: 'lerna/3.22.1/node@v16.15.0+arm64 (darwin)',
+109 silly install resolved     dist:
+109 silly install resolved      { integrity:
+109 silly install resolved         'sha512-+Wpvj8fMTCt9ZPOLu5YaLkFCQmB4MrZ26aRmhhKiCQ/4PMoL6mLezfqdt6c+m2htM+1WV5RunRo+0WHl2DfwZA==',
+109 silly install resolved        shasum: '5f6513128f426be0ee9a7d03155c23a6f23f8d42',
+109 silly install resolved        tarball:
+109 silly install resolved         'https://registry.npmjs.org/@vue/cli-service/-/cli-service-4.5.19.tgz',
+109 silly install resolved        fileCount: 60,
+109 silly install resolved        unpackedSize: 159025,
+109 silly install resolved        signatures: [Array],
+109 silly install resolved        'npm-signature':
+109 silly install resolved         '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiuoEYACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrsIQ//XFoiUtSKmg6GV/on56m2w1DG6x4aEEymSngtHbXW8yCwbxXY\r\nEdIICrA+iFKDeNDfYmds7coNB2J546wNhlwtTP7Q25c5eT5hZEqo3ve1GHw5\r\nk1a6Utu9KQ11xBxEoBm/522r1o4v2NXf3CRG3N/HopM9N/Zm3KmVjq3nbA54\r\nUu4hUdUm/RfUutkVL8onqWTRhEUR9LRfe3Q+vYpHW7DOZb1LXZFGC5oMboWv\r\nRtLhPZp7NpSDsmfsamHFAT//NI0dziZpVgCmWjVihmozTfT1iNpevExq1KUP\r\nrOfYG8X0VOHQDmPvZhVaYg+pnqbJStKasY5f1GuD64iFwuKSuAuiGIEw5Ol6\r\nckaMg8acNesFzfiLqD185ZqeKudGF0XSQCpXE9+bQCqzxUAUX65RhAc55z0/\r\nOStig5xT6Z1sSqw3KgSt1vZ2/W6bMJGE2ozG8PWCjZGvd8DFOyzEWZ4nORco\r\n3yO++vBlvfcnrAGSV1JRf/uFKpGSfmgZEOjLhUQsrmKx5rqRzR7tjgFs4UA8\r\nYWEyMCT+O8aRyAva9fBUesLU1EMrC3bevO3Kgj/UtMR8ThxbMvVL1o8WXkpE\r\nsTvQm2xtLkbJOe0kJVIkA7bD4C3IIHf0M42EON7MzPCsLxdxme6zsgtMO9L3\r\nFP7Vp7qzhwjwjSU45FHDf2QhqHFYAzSsv9E=\r\n=LT5n\r\n-----END PGP SIGNATURE-----\r\n' },
+109 silly install resolved     _npmUser: { name: 'soda', email: 'haoqunjiang+npm@gmail.com' },
+109 silly install resolved     directories: {},
+109 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+109 silly install resolved     _npmOperationalInternal:
+109 silly install resolved      { host: 's3://npm-registry-packages',
+109 silly install resolved        tmp: 'tmp/cli-service_4.5.19_1656389912659_0.7649481589738063' },
+109 silly install resolved     _hasShrinkwrap: false,
+109 silly install resolved     _shasum: '5f6513128f426be0ee9a7d03155c23a6f23f8d42',
+109 silly install resolved     _resolved:
+109 silly install resolved      'https://registry.npmjs.org/@vue/cli-service/-/cli-service-4.5.19.tgz',
+109 silly install resolved     _from: '@vue/cli-service@>=4.5.15 <4.6.0',
+109 silly install resolved     readme: 'ERROR: No README data found!' },
+109 silly install resolved   { name: '@vue/cli-plugin-eslint',
+109 silly install resolved     version: '4.5.19',
+109 silly install resolved     description: 'eslint plugin for vue-cli',
+109 silly install resolved     main: 'index.js',
+109 silly install resolved     repository:
+109 silly install resolved      { type: 'git',
+109 silly install resolved        url: 'git+https://github.com/vuejs/vue-cli.git',
+109 silly install resolved        directory: 'packages/@vue/cli-plugin-eslint' },
+109 silly install resolved     keywords: [ 'vue', 'cli', 'eslint' ],
+109 silly install resolved     author: { name: 'Evan You' },
+109 silly install resolved     license: 'MIT',
+109 silly install resolved     bugs: { url: 'https://github.com/vuejs/vue-cli/issues' },
+109 silly install resolved     homepage:
+109 silly install resolved      'https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-eslint#readme',
+109 silly install resolved     publishConfig: { access: 'public' },
+109 silly install resolved     dependencies:
+109 silly install resolved      { '@vue/cli-shared-utils': '^4.5.19',
+109 silly install resolved        'eslint-loader': '^2.2.1',
+109 silly install resolved        globby: '^9.2.0',
+109 silly install resolved        inquirer: '^7.1.0',
+109 silly install resolved        webpack: '^4.0.0',
+109 silly install resolved        yorkie: '^2.0.0' },
+109 silly install resolved     peerDependencies:
+109 silly install resolved      { '@vue/cli-service': '^3.0.0 || ^4.0.0-0',
+109 silly install resolved        eslint: '>= 1.6.0 < 7.0.0' },
+109 silly install resolved     gitHead: 'bef7a67566585876d56fa0e41b364675467bba8f',
+109 silly install resolved     _id: '@vue/cli-plugin-eslint@4.5.19',
+109 silly install resolved     _nodeVersion: '16.15.0',
+109 silly install resolved     _npmVersion: 'lerna/3.22.1/node@v16.15.0+arm64 (darwin)',
+109 silly install resolved     dist:
+109 silly install resolved      { integrity:
+109 silly install resolved         'sha512-53sa4Pu9j5KajesFlj494CcO8vVo3e3nnZ1CCKjGGnrF90id1rUeepcFfz5XjwfEtbJZp2x/NoX/EZE6zCzSFQ==',
+109 silly install resolved        shasum: 'd1f908b5d079f2902dc23301290e4dd8176f204c',
+109 silly install resolved        tarball:
+109 silly install resolved         'https://registry.npmjs.org/@vue/cli-plugin-eslint/-/cli-plugin-eslint-4.5.19.tgz',
+109 silly install resolved        fileCount: 16,
+109 silly install resolved        unpackedSize: 29688,
+109 silly install resolved        signatures: [Array],
+109 silly install resolved        'npm-signature':
+109 silly install resolved         '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiuoEXACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqSIA/7BSJ/tOEuxvPYFKFo8Vcwahz3W0rQoOwMpCCojciScAVS6Taw\r\nFVMR8B5k2O9WKmeaRQq7gdej/O5CyDzg2XJs39IvfBldL57COgpDDUF06WfP\r\nIo9oY8agKS69nUIV2tCHnn1hCKzkVosA9BR2SMQK+bjeTRLio5fsCwkl43o5\r\nC7rkzpASh4QdnakAg7B/vByntexP1nPj2Ne7jumhwDU/kneahIT6wK5qGaZQ\r\n+TXxmldVSZ8ic1bWkUa50Tcup17Mz4WLanQMT2hoAzRPRhYMJdV8cBDj1yTI\r\nqZN5quCIAgRw8m2TmxLB1RdExlAkbGFu2DrXwbs/NaGYq/Bm6EmWoRGTI9cV\r\n72kClmwSsYbOMHPtX6Dgb4BW63lmzc4pqTYAf6Ajmpju3z0IxbcUtulwmxkc\r\nxLuQU3v8A4510gi3/Voo7F7z9lnAijyboqL/BMoC1IeNP7jS5U2Twf5BNP+m\r\nIS2gxC724UtU24VpmMnL4ceBJfcF4G8ioCiZfyWYVY/kFHoY2nx02PehOJLn\r\ntv7nl0W7IYWNXHL3Xp+vaNk/EU3Ikmnt92tV0vMAjRUDYOmm2GaWuxnsXHCy\r\ntBiHU3U+PX0r+unQ74tzCdBhFpYL8yTc6iEbABOZTV+MDIyY2xe8Vhgfkz6n\r\nDv7ugWcbqPbn3oAvkv0RsiJHS/Lit6Bm/8Q=\r\n=lQ54\r\n-----END PGP SIGNATURE-----\r\n' },
+109 silly install resolved     _npmUser: { name: 'soda', email: 'haoqunjiang+npm@gmail.com' },
+109 silly install resolved     directories: {},
+109 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+109 silly install resolved     _npmOperationalInternal:
+109 silly install resolved      { host: 's3://npm-registry-packages',
+109 silly install resolved        tmp:
+109 silly install resolved         'tmp/cli-plugin-eslint_4.5.19_1656389911230_0.8624332375672417' },
+109 silly install resolved     _hasShrinkwrap: false,
+109 silly install resolved     _shasum: 'd1f908b5d079f2902dc23301290e4dd8176f204c',
+109 silly install resolved     _resolved:
+109 silly install resolved      'https://registry.npmjs.org/@vue/cli-plugin-eslint/-/cli-plugin-eslint-4.5.19.tgz',
+109 silly install resolved     _from: '@vue/cli-plugin-eslint@>=4.5.15 <4.6.0',
+109 silly install resolved     readme: 'ERROR: No README data found!' } ]
+110 info install @vue/cli-plugin-babel@4.5.19 into /home/muralimanohar/Desktop/code/or_code_project/qr_code
+111 info install @vue/cli-service@4.5.19 into /home/muralimanohar/Desktop/code/or_code_project/qr_code
+112 info install @vue/cli-plugin-eslint@4.5.19 into /home/muralimanohar/Desktop/code/or_code_project/qr_code
+113 info installOne @vue/cli-plugin-babel@4.5.19
+114 verbose installOne of @vue/cli-plugin-babel to /home/muralimanohar/Desktop/code/or_code_project/qr_code not in flight; installing
+115 verbose correctMkdir /home/muralimanohar/.npm/_locks correctMkdir not in flight; initializing
+116 info installOne @vue/cli-service@4.5.19
+117 verbose installOne of @vue/cli-service to /home/muralimanohar/Desktop/code/or_code_project/qr_code not in flight; installing
+118 verbose correctMkdir /home/muralimanohar/.npm/_locks correctMkdir already in flight; waiting
+119 info installOne @vue/cli-plugin-eslint@4.5.19
+120 verbose installOne of @vue/cli-plugin-eslint to /home/muralimanohar/Desktop/code/or_code_project/qr_code not in flight; installing
+121 verbose correctMkdir /home/muralimanohar/.npm/_locks correctMkdir already in flight; waiting
+122 verbose lock using /home/muralimanohar/.npm/_locks/vue-cli-service-1464bf8ae544972f.lock for /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service
+123 verbose lock using /home/muralimanohar/.npm/_locks/vue-cli-plugin-babel-7eab5c59ffb7efd0.lock for /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel
+124 verbose lock using /home/muralimanohar/.npm/_locks/vue-cli-plugin-eslint-72e90522de6f167b.lock for /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint
+125 silly install write writing @vue/cli-service 4.5.19 to /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service
+126 silly install write writing @vue/cli-plugin-babel 4.5.19 to /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel
+127 silly install write writing @vue/cli-plugin-eslint 4.5.19 to /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint
+128 verbose unbuild node_modules/@vue/cli-plugin-eslint
+129 verbose unbuild node_modules/@vue/cli-plugin-babel
+130 verbose unbuild node_modules/@vue/cli-service
+131 silly gentlyRm /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint is being purged from base /home/muralimanohar/Desktop/code/or_code_project/qr_code
+132 verbose gentlyRm don't care about contents; nuking /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint
+133 silly gentlyRm /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel is being purged from base /home/muralimanohar/Desktop/code/or_code_project/qr_code
+134 verbose gentlyRm don't care about contents; nuking /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel
+135 silly gentlyRm /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service is being purged from base /home/muralimanohar/Desktop/code/or_code_project/qr_code
+136 verbose gentlyRm don't care about contents; nuking /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service
+137 verbose tar unpack /home/muralimanohar/.npm/@vue/cli-plugin-eslint/4.5.19/package.tgz
+138 verbose tar unpacking to /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint
+139 silly gentlyRm /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint is being purged
+140 verbose gentlyRm don't care about contents; nuking /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint
+141 verbose tar unpack /home/muralimanohar/.npm/@vue/cli-plugin-babel/4.5.19/package.tgz
+142 verbose tar unpacking to /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel
+143 silly gentlyRm /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel is being purged
+144 verbose gentlyRm don't care about contents; nuking /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel
+145 verbose tar unpack /home/muralimanohar/.npm/@vue/cli-service/4.5.19/package.tgz
+146 verbose tar unpacking to /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service
+147 silly gentlyRm /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service is being purged
+148 verbose gentlyRm don't care about contents; nuking /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service
+149 silly gunzTarPerm modes [ '775', '664' ]
+150 silly gunzTarPerm modes [ '775', '664' ]
+151 silly gunzTarPerm modes [ '775', '664' ]
+152 silly gunzTarPerm extractEntry generator/template/airbnb/_editorconfig
+153 silly gunzTarPerm modified mode [ 'generator/template/airbnb/_editorconfig', 420, 436 ]
+154 silly gunzTarPerm extractEntry LICENSE
+155 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+156 silly gunzTarPerm extractEntry generator/template/_gitignore
+157 silly gunzTarPerm modified mode [ 'generator/template/_gitignore', 420, 436 ]
+158 silly gunzTarPerm extractEntry generator.js
+159 silly gunzTarPerm modified mode [ 'generator.js', 420, 436 ]
+160 silly gunzTarPerm extractEntry index.js
+161 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+162 silly gunzTarPerm extractEntry generator/template/standard/_editorconfig
+163 silly gunzTarPerm modified mode [ 'generator/template/standard/_editorconfig', 420, 436 ]
+164 silly gunzTarPerm extractEntry LICENSE
+165 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+166 silly gunzTarPerm extractEntry LICENSE
+167 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+168 silly gunzTarPerm extractEntry lib/commands/build/demo-lib-js.html
+169 silly gunzTarPerm modified mode [ 'lib/commands/build/demo-lib-js.html', 420, 436 ]
+170 silly gunzTarPerm extractEntry migrator/index.js
+171 silly gunzTarPerm modified mode [ 'migrator/index.js', 420, 436 ]
+172 silly gunzTarPerm extractEntry preset.js
+173 silly gunzTarPerm modified mode [ 'preset.js', 420, 436 ]
+174 silly gunzTarPerm extractEntry ui/configDescriptor.js
+175 silly gunzTarPerm modified mode [ 'ui/configDescriptor.js', 420, 436 ]
+176 silly gunzTarPerm extractEntry eslintDeps.js
+177 silly gunzTarPerm modified mode [ 'eslintDeps.js', 420, 436 ]
+178 silly gunzTarPerm extractEntry lib/commands/build/demo-lib.html
+179 silly gunzTarPerm modified mode [ 'lib/commands/build/demo-lib.html', 420, 436 ]
+180 silly gunzTarPerm extractEntry lib/commands/build/demo-wc.html
+181 silly gunzTarPerm modified mode [ 'lib/commands/build/demo-wc.html', 420, 436 ]
+182 silly gunzTarPerm extractEntry codemods/usePluginPreset.js
+183 silly gunzTarPerm modified mode [ 'codemods/usePluginPreset.js', 420, 436 ]
+184 silly gunzTarPerm extractEntry package.json
+185 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+186 silly gunzTarPerm extractEntry eslintOptions.js
+187 silly gunzTarPerm modified mode [ 'eslintOptions.js', 420, 436 ]
+188 silly gunzTarPerm extractEntry generator/index.js
+189 silly gunzTarPerm modified mode [ 'generator/index.js', 420, 436 ]
+190 silly gunzTarPerm extractEntry README.md
+191 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+192 silly gunzTarPerm extractEntry logo.png
+193 silly gunzTarPerm modified mode [ 'logo.png', 420, 436 ]
+194 silly gunzTarPerm extractEntry lib/config/index-default.html
+195 silly gunzTarPerm modified mode [ 'lib/config/index-default.html', 420, 436 ]
+196 silly gunzTarPerm extractEntry generator/template/public/index.html
+197 silly gunzTarPerm modified mode [ 'generator/template/public/index.html', 420, 436 ]
+198 silly gunzTarPerm extractEntry index.js
+199 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+200 silly gunzTarPerm extractEntry generator/template/public/favicon.ico
+201 silly gunzTarPerm modified mode [ 'generator/template/public/favicon.ico', 420, 436 ]
+202 silly gunzTarPerm extractEntry lib/webpack/analyzeBundle.js
+203 silly gunzTarPerm modified mode [ 'lib/webpack/analyzeBundle.js', 420, 436 ]
+204 silly gunzTarPerm extractEntry migrator/index.js
+205 silly gunzTarPerm modified mode [ 'migrator/index.js', 420, 436 ]
+206 silly gunzTarPerm extractEntry ui/index.js
+207 silly gunzTarPerm modified mode [ 'ui/index.js', 420, 436 ]
+208 silly gunzTarPerm extractEntry lib/config/app.js
+209 silly gunzTarPerm modified mode [ 'lib/config/app.js', 420, 436 ]
+210 silly gunzTarPerm extractEntry lint.js
+211 silly gunzTarPerm modified mode [ 'lint.js', 420, 436 ]
+212 silly gunzTarPerm extractEntry prompts.js
+213 silly gunzTarPerm modified mode [ 'prompts.js', 420, 436 ]
+214 silly gunzTarPerm extractEntry lib/config/base.js
+215 silly gunzTarPerm modified mode [ 'lib/config/base.js', 420, 436 ]
+216 silly gunzTarPerm extractEntry lib/webpack/CorsPlugin.js
+217 silly gunzTarPerm modified mode [ 'lib/webpack/CorsPlugin.js', 420, 436 ]
+218 silly gunzTarPerm extractEntry ui/taskDescriptor.js
+219 silly gunzTarPerm modified mode [ 'ui/taskDescriptor.js', 420, 436 ]
+220 silly gunzTarPerm extractEntry package.json
+221 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+222 silly gunzTarPerm extractEntry lib/config/css.js
+223 silly gunzTarPerm modified mode [ 'lib/config/css.js', 420, 436 ]
+224 silly gunzTarPerm extractEntry lib/webpack/DashboardPlugin.js
+225 silly gunzTarPerm modified mode [ 'lib/webpack/DashboardPlugin.js', 420, 436 ]
+226 silly gunzTarPerm extractEntry README.md
+227 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+228 silly gunzTarPerm extractEntry logo.png
+229 silly gunzTarPerm modified mode [ 'logo.png', 420, 436 ]
+230 silly gunzTarPerm extractEntry lib/commands/build/entry-lib-no-default.js
+231 silly gunzTarPerm modified mode [ 'lib/commands/build/entry-lib-no-default.js', 420, 436 ]
+232 silly gunzTarPerm extractEntry lib/commands/build/entry-lib.js
+233 silly gunzTarPerm modified mode [ 'lib/commands/build/entry-lib.js', 420, 436 ]
+234 silly gunzTarPerm extractEntry lib/commands/build/formatStats.js
+235 silly gunzTarPerm modified mode [ 'lib/commands/build/formatStats.js', 420, 436 ]
+236 silly gunzTarPerm extractEntry lib/util/getAssetPath.js
+237 silly gunzTarPerm modified mode [ 'lib/util/getAssetPath.js', 420, 436 ]
+238 verbose write writing to /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel/package.json
+239 info preinstall @vue/cli-plugin-babel@4.5.19
+240 verbose readDependencies loading dependencies from /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel/package.json
+241 silly gunzTarPerm extractEntry lib/util/getPadLength.js
+242 silly gunzTarPerm modified mode [ 'lib/util/getPadLength.js', 420, 436 ]
+243 silly gunzTarPerm extractEntry lib/util/getVueMajor.js
+244 silly gunzTarPerm modified mode [ 'lib/util/getVueMajor.js', 420, 436 ]
+245 silly prepareForInstallMany adding @babel/core@^7.11.0 from @vue/cli-plugin-babel dependencies
+246 silly prepareForInstallMany adding @vue/babel-preset-app@^4.5.19 from @vue/cli-plugin-babel dependencies
+247 silly prepareForInstallMany adding @vue/cli-shared-utils@^4.5.19 from @vue/cli-plugin-babel dependencies
+248 silly prepareForInstallMany adding babel-loader@^8.1.0 from @vue/cli-plugin-babel dependencies
+249 silly prepareForInstallMany adding cache-loader@^4.1.0 from @vue/cli-plugin-babel dependencies
+250 silly prepareForInstallMany adding thread-loader@^2.1.3 from @vue/cli-plugin-babel dependencies
+251 silly prepareForInstallMany adding webpack@^4.0.0 from @vue/cli-plugin-babel dependencies
+252 verbose readDependencies loading dependencies from /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-babel/package.json
+253 silly gunzTarPerm extractEntry lib/commands/help.js
+254 silly gunzTarPerm modified mode [ 'lib/commands/help.js', 420, 436 ]
+255 silly gunzTarPerm extractEntry generator/index.js
+256 silly gunzTarPerm modified mode [ 'generator/index.js', 420, 436 ]
+257 silly cache add args [ '@babel/core@^7.11.0', null ]
+258 verbose cache add spec @babel/core@^7.11.0
+259 silly cache add args [ '@vue/babel-preset-app@^4.5.19', null ]
+260 verbose cache add spec @vue/babel-preset-app@^4.5.19
+261 silly cache add parsed spec Result {
+261 silly cache add   raw: '@babel/core@^7.11.0',
+261 silly cache add   scope: '@babel',
+261 silly cache add   name: '@babel/core',
+261 silly cache add   rawSpec: '^7.11.0',
+261 silly cache add   spec: '>=7.11.0 <8.0.0',
+261 silly cache add   type: 'range' }
+262 silly addNamed @babel/core@>=7.11.0 <8.0.0
+263 verbose addNamed ">=7.11.0 <8.0.0" is a valid semver range for @babel/core
+264 silly addNameRange { name: '@babel/core', range: '>=7.11.0 <8.0.0', hasData: false }
+265 silly mapToRegistry name @babel/core
+266 silly mapToRegistry scope (from package name) @babel
+267 verbose mapToRegistry no registry URL found in name for scope @babel
+268 silly mapToRegistry using default registry
+269 silly mapToRegistry registry https://registry.npmjs.org/
+270 silly mapToRegistry data Result {
+270 silly mapToRegistry   raw: '@babel/core',
+270 silly mapToRegistry   scope: '@babel',
+270 silly mapToRegistry   name: '@babel/core',
+270 silly mapToRegistry   rawSpec: '',
+270 silly mapToRegistry   spec: 'latest',
+270 silly mapToRegistry   type: 'tag' }
+271 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fcore
+272 verbose addNameRange registry:https://registry.npmjs.org/@babel%2fcore not in flight; fetching
+273 silly cache add parsed spec Result {
+273 silly cache add   raw: '@vue/babel-preset-app@^4.5.19',
+273 silly cache add   scope: '@vue',
+273 silly cache add   name: '@vue/babel-preset-app',
+273 silly cache add   rawSpec: '^4.5.19',
+273 silly cache add   spec: '>=4.5.19 <5.0.0',
+273 silly cache add   type: 'range' }
+274 silly addNamed @vue/babel-preset-app@>=4.5.19 <5.0.0
+275 verbose addNamed ">=4.5.19 <5.0.0" is a valid semver range for @vue/babel-preset-app
+276 silly addNameRange { name: '@vue/babel-preset-app',
+276 silly addNameRange   range: '>=4.5.19 <5.0.0',
+276 silly addNameRange   hasData: false }
+277 silly mapToRegistry name @vue/babel-preset-app
+278 silly mapToRegistry scope (from package name) @vue
+279 verbose mapToRegistry no registry URL found in name for scope @vue
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry https://registry.npmjs.org/
+282 silly mapToRegistry data Result {
+282 silly mapToRegistry   raw: '@vue/babel-preset-app',
+282 silly mapToRegistry   scope: '@vue',
+282 silly mapToRegistry   name: '@vue/babel-preset-app',
+282 silly mapToRegistry   rawSpec: '',
+282 silly mapToRegistry   spec: 'latest',
+282 silly mapToRegistry   type: 'tag' }
+283 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fbabel-preset-app
+284 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fbabel-preset-app not in flight; fetching
+285 silly cache add args [ '@vue/cli-shared-utils@^4.5.19', null ]
+286 verbose cache add spec @vue/cli-shared-utils@^4.5.19
+287 silly cache add parsed spec Result {
+287 silly cache add   raw: '@vue/cli-shared-utils@^4.5.19',
+287 silly cache add   scope: '@vue',
+287 silly cache add   name: '@vue/cli-shared-utils',
+287 silly cache add   rawSpec: '^4.5.19',
+287 silly cache add   spec: '>=4.5.19 <5.0.0',
+287 silly cache add   type: 'range' }
+288 silly addNamed @vue/cli-shared-utils@>=4.5.19 <5.0.0
+289 verbose addNamed ">=4.5.19 <5.0.0" is a valid semver range for @vue/cli-shared-utils
+290 silly addNameRange { name: '@vue/cli-shared-utils',
+290 silly addNameRange   range: '>=4.5.19 <5.0.0',
+290 silly addNameRange   hasData: false }
+291 silly mapToRegistry name @vue/cli-shared-utils
+292 silly mapToRegistry scope (from package name) @vue
+293 verbose mapToRegistry no registry URL found in name for scope @vue
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry data Result {
+296 silly mapToRegistry   raw: '@vue/cli-shared-utils',
+296 silly mapToRegistry   scope: '@vue',
+296 silly mapToRegistry   name: '@vue/cli-shared-utils',
+296 silly mapToRegistry   rawSpec: '',
+296 silly mapToRegistry   spec: 'latest',
+296 silly mapToRegistry   type: 'tag' }
+297 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli-shared-utils
+298 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcli-shared-utils not in flight; fetching
+299 silly gunzTarPerm extractEntry lib/commands/build/index.js
+300 silly gunzTarPerm modified mode [ 'lib/commands/build/index.js', 420, 436 ]
+301 silly gunzTarPerm extractEntry migrator/index.js
+302 silly gunzTarPerm modified mode [ 'migrator/index.js', 420, 436 ]
+303 silly cache add args [ 'babel-loader@^8.1.0', null ]
+304 verbose cache add spec babel-loader@^8.1.0
+305 silly cache add parsed spec Result {
+305 silly cache add   raw: 'babel-loader@^8.1.0',
+305 silly cache add   scope: null,
+305 silly cache add   name: 'babel-loader',
+305 silly cache add   rawSpec: '^8.1.0',
+305 silly cache add   spec: '>=8.1.0 <9.0.0',
+305 silly cache add   type: 'range' }
+306 silly addNamed babel-loader@>=8.1.0 <9.0.0
+307 verbose addNamed ">=8.1.0 <9.0.0" is a valid semver range for babel-loader
+308 silly addNameRange { name: 'babel-loader', range: '>=8.1.0 <9.0.0', hasData: false }
+309 silly mapToRegistry name babel-loader
+310 silly mapToRegistry using default registry
+311 silly mapToRegistry registry https://registry.npmjs.org/
+312 silly mapToRegistry data Result {
+312 silly mapToRegistry   raw: 'babel-loader',
+312 silly mapToRegistry   scope: null,
+312 silly mapToRegistry   name: 'babel-loader',
+312 silly mapToRegistry   rawSpec: '',
+312 silly mapToRegistry   spec: 'latest',
+312 silly mapToRegistry   type: 'tag' }
+313 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+314 verbose addNameRange registry:https://registry.npmjs.org/babel-loader not in flight; fetching
+315 silly cache add args [ 'cache-loader@^4.1.0', null ]
+316 verbose cache add spec cache-loader@^4.1.0
+317 silly cache add parsed spec Result {
+317 silly cache add   raw: 'cache-loader@^4.1.0',
+317 silly cache add   scope: null,
+317 silly cache add   name: 'cache-loader',
+317 silly cache add   rawSpec: '^4.1.0',
+317 silly cache add   spec: '>=4.1.0 <5.0.0',
+317 silly cache add   type: 'range' }
+318 silly addNamed cache-loader@>=4.1.0 <5.0.0
+319 verbose addNamed ">=4.1.0 <5.0.0" is a valid semver range for cache-loader
+320 silly addNameRange { name: 'cache-loader', range: '>=4.1.0 <5.0.0', hasData: false }
+321 silly mapToRegistry name cache-loader
+322 silly mapToRegistry using default registry
+323 silly mapToRegistry registry https://registry.npmjs.org/
+324 silly mapToRegistry data Result {
+324 silly mapToRegistry   raw: 'cache-loader',
+324 silly mapToRegistry   scope: null,
+324 silly mapToRegistry   name: 'cache-loader',
+324 silly mapToRegistry   rawSpec: '',
+324 silly mapToRegistry   spec: 'latest',
+324 silly mapToRegistry   type: 'tag' }
+325 silly mapToRegistry uri https://registry.npmjs.org/cache-loader
+326 verbose addNameRange registry:https://registry.npmjs.org/cache-loader not in flight; fetching
+327 silly cache add args [ 'thread-loader@^2.1.3', null ]
+328 verbose cache add spec thread-loader@^2.1.3
+329 silly cache add parsed spec Result {
+329 silly cache add   raw: 'thread-loader@^2.1.3',
+329 silly cache add   scope: null,
+329 silly cache add   name: 'thread-loader',
+329 silly cache add   rawSpec: '^2.1.3',
+329 silly cache add   spec: '>=2.1.3 <3.0.0',
+329 silly cache add   type: 'range' }
+330 silly addNamed thread-loader@>=2.1.3 <3.0.0
+331 verbose addNamed ">=2.1.3 <3.0.0" is a valid semver range for thread-loader
+332 silly addNameRange { name: 'thread-loader',
+332 silly addNameRange   range: '>=2.1.3 <3.0.0',
+332 silly addNameRange   hasData: false }
+333 silly mapToRegistry name thread-loader
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npmjs.org/
+336 silly mapToRegistry data Result {
+336 silly mapToRegistry   raw: 'thread-loader',
+336 silly mapToRegistry   scope: null,
+336 silly mapToRegistry   name: 'thread-loader',
+336 silly mapToRegistry   rawSpec: '',
+336 silly mapToRegistry   spec: 'latest',
+336 silly mapToRegistry   type: 'tag' }
+337 silly mapToRegistry uri https://registry.npmjs.org/thread-loader
+338 verbose addNameRange registry:https://registry.npmjs.org/thread-loader not in flight; fetching
+339 silly cache add args [ 'webpack@^4.0.0', null ]
+340 verbose cache add spec webpack@^4.0.0
+341 silly cache add parsed spec Result {
+341 silly cache add   raw: 'webpack@^4.0.0',
+341 silly cache add   scope: null,
+341 silly cache add   name: 'webpack',
+341 silly cache add   rawSpec: '^4.0.0',
+341 silly cache add   spec: '>=4.0.0 <5.0.0',
+341 silly cache add   type: 'range' }
+342 silly addNamed webpack@>=4.0.0 <5.0.0
+343 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for webpack
+344 silly addNameRange { name: 'webpack', range: '>=4.0.0 <5.0.0', hasData: false }
+345 silly mapToRegistry name webpack
+346 silly mapToRegistry using default registry
+347 silly mapToRegistry registry https://registry.npmjs.org/
+348 silly mapToRegistry data Result {
+348 silly mapToRegistry   raw: 'webpack',
+348 silly mapToRegistry   scope: null,
+348 silly mapToRegistry   name: 'webpack',
+348 silly mapToRegistry   rawSpec: '',
+348 silly mapToRegistry   spec: 'latest',
+348 silly mapToRegistry   type: 'tag' }
+349 silly mapToRegistry uri https://registry.npmjs.org/webpack
+350 verbose addNameRange registry:https://registry.npmjs.org/webpack not in flight; fetching
+351 silly gunzTarPerm extractEntry lib/commands/inspect.js
+352 silly gunzTarPerm modified mode [ 'lib/commands/inspect.js', 420, 436 ]
+353 silly gunzTarPerm extractEntry lib/util/isAbsoluteUrl.js
+354 silly gunzTarPerm modified mode [ 'lib/util/isAbsoluteUrl.js', 420, 436 ]
+355 verbose request uri https://registry.npmjs.org/cache-loader
+356 verbose request no auth needed
+357 info attempt registry request try #1 at 10:41:09 pm
+358 verbose etag W/"b056eda9de239fb24e4a6ca3caf4aea7"
+359 verbose lastModified Mon, 13 Jun 2022 05:23:19 GMT
+360 http request GET https://registry.npmjs.org/cache-loader
+361 verbose request uri https://registry.npmjs.org/thread-loader
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 10:41:09 pm
+364 verbose etag W/"e5e3cf04deb1352835bc5895c31b24f3"
+365 verbose lastModified Mon, 27 Jun 2022 06:16:48 GMT
+366 http request GET https://registry.npmjs.org/thread-loader
+367 silly gunzTarPerm extractEntry generator/template/src/main.js
+368 silly gunzTarPerm modified mode [ 'generator/template/src/main.js', 420, 436 ]
+369 silly gunzTarPerm extractEntry lib/webpack/ModernModePlugin.js
+370 silly gunzTarPerm modified mode [ 'lib/webpack/ModernModePlugin.js', 420, 436 ]
+371 silly gunzTarPerm extractEntry lib/webpack/MovePlugin.js
+372 silly gunzTarPerm modified mode [ 'lib/webpack/MovePlugin.js', 420, 436 ]
+373 silly gunzTarPerm extractEntry lib/options.js
+374 silly gunzTarPerm modified mode [ 'lib/options.js', 420, 436 ]
+375 verbose request uri https://registry.npmjs.org/babel-loader
+376 verbose request no auth needed
+377 info attempt registry request try #1 at 10:41:09 pm
+378 verbose etag W/"b31f24c9b77f261bc0c02d5edd55ee02"
+379 verbose lastModified Mon, 13 Jun 2022 04:00:16 GMT
+380 http request GET https://registry.npmjs.org/babel-loader
+381 silly gunzTarPerm extractEntry lib/PluginAPI.js
+382 silly gunzTarPerm modified mode [ 'lib/PluginAPI.js', 420, 436 ]
+383 silly gunzTarPerm extractEntry lib/util/prepareProxy.js
+384 silly gunzTarPerm modified mode [ 'lib/util/prepareProxy.js', 420, 436 ]
+385 silly gunzTarPerm extractEntry lib/util/prepareURLs.js
+386 silly gunzTarPerm modified mode [ 'lib/util/prepareURLs.js', 420, 436 ]
+387 silly gunzTarPerm extractEntry lib/config/prod.js
+388 silly gunzTarPerm modified mode [ 'lib/config/prod.js', 420, 436 ]
+389 verbose write writing to /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint/package.json
+390 verbose request uri https://registry.npmjs.org/@vue%2fcli-shared-utils
+391 verbose request no auth needed
+392 info attempt registry request try #1 at 10:41:09 pm
+393 verbose etag W/"5b49c7c5e671c9f284e1b58ca5cb5914"
+394 verbose lastModified Thu, 07 Jul 2022 10:22:07 GMT
+395 http request GET https://registry.npmjs.org/@vue%2fcli-shared-utils
+396 silly gunzTarPerm extractEntry lib/commands/build/resolveAppConfig.js
+397 silly gunzTarPerm modified mode [ 'lib/commands/build/resolveAppConfig.js', 420, 436 ]
+398 silly gunzTarPerm extractEntry lib/util/resolveClientEnv.js
+399 silly gunzTarPerm modified mode [ 'lib/util/resolveClientEnv.js', 420, 436 ]
+400 info preinstall @vue/cli-plugin-eslint@4.5.19
+401 verbose readDependencies loading dependencies from /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint/package.json
+402 http 304 https://registry.npmjs.org/cache-loader
+403 verbose headers { date: 'Thu, 13 Oct 2022 17:11:07 GMT',
+403 verbose headers   connection: 'keep-alive',
+403 verbose headers   'cf-ray': '7599b1500ade9380-MAA',
+403 verbose headers   age: '60',
+403 verbose headers   'cache-control': 'public, max-age=300',
+403 verbose headers   etag: '"b056eda9de239fb24e4a6ca3caf4aea7"',
+403 verbose headers   'last-modified': 'Mon, 13 Jun 2022 05:23:19 GMT',
+403 verbose headers   vary: 'Accept-Encoding',
+403 verbose headers   'cf-cache-status': 'HIT',
+403 verbose headers   'x-amz-replication-status': 'COMPLETED',
+403 verbose headers   server: 'cloudflare' }
+404 silly get cb [ 304,
+404 silly get   { date: 'Thu, 13 Oct 2022 17:11:07 GMT',
+404 silly get     connection: 'keep-alive',
+404 silly get     'cf-ray': '7599b1500ade9380-MAA',
+404 silly get     age: '60',
+404 silly get     'cache-control': 'public, max-age=300',
+404 silly get     etag: '"b056eda9de239fb24e4a6ca3caf4aea7"',
+404 silly get     'last-modified': 'Mon, 13 Jun 2022 05:23:19 GMT',
+404 silly get     vary: 'Accept-Encoding',
+404 silly get     'cf-cache-status': 'HIT',
+404 silly get     'x-amz-replication-status': 'COMPLETED',
+404 silly get     server: 'cloudflare' } ]
+405 verbose etag https://registry.npmjs.org/cache-loader from cache
+406 verbose get saving cache-loader to /home/muralimanohar/.npm/registry.npmjs.org/cache-loader/.cache.json
+407 verbose correctMkdir /home/muralimanohar/.npm correctMkdir not in flight; initializing
+408 verbose request uri https://registry.npmjs.org/@babel%2fcore
+409 verbose request no auth needed
+410 info attempt registry request try #1 at 10:41:09 pm
+411 verbose etag W/"9f5c2a8ba1968e5d58f4cfe0540a767e"
+412 verbose lastModified Tue, 27 Sep 2022 18:36:52 GMT
+413 http request GET https://registry.npmjs.org/@babel%2fcore
+414 silly prepareForInstallMany adding @vue/cli-shared-utils@^4.5.19 from @vue/cli-plugin-eslint dependencies
+415 silly prepareForInstallMany adding eslint-loader@^2.2.1 from @vue/cli-plugin-eslint dependencies
+416 silly prepareForInstallMany adding globby@^9.2.0 from @vue/cli-plugin-eslint dependencies
+417 silly prepareForInstallMany adding inquirer@^7.1.0 from @vue/cli-plugin-eslint dependencies
+418 silly prepareForInstallMany adding webpack@^4.0.0 from @vue/cli-plugin-eslint dependencies
+419 silly prepareForInstallMany adding yorkie@^2.0.0 from @vue/cli-plugin-eslint dependencies
+420 silly prepareForInstallMany adding eslint@>= 1.6.0 < 7.0.0 from @vue/cli-plugin-eslint peerDependencies
+421 warn peerDependencies The peer dependency eslint@>= 1.6.0 < 7.0.0 included from @vue/cli-plugin-eslint will no
+422 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+423 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+424 verbose readDependencies loading dependencies from /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-plugin-eslint/package.json
+425 silly gunzTarPerm extractEntry lib/commands/build/resolveLibConfig.js
+426 silly gunzTarPerm modified mode [ 'lib/commands/build/resolveLibConfig.js', 420, 436 ]
+427 silly gunzTarPerm extractEntry lib/util/resolveLoaderError.js
+428 silly gunzTarPerm modified mode [ 'lib/util/resolveLoaderError.js', 420, 436 ]
+429 silly addNameRange number 2 { name: 'cache-loader', range: '>=4.1.0 <5.0.0', hasData: true }
+430 silly addNameRange versions [ 'cache-loader',
+430 silly addNameRange   [ '1.0.1',
+430 silly addNameRange     '1.0.2',
+430 silly addNameRange     '1.0.3',
+430 silly addNameRange     '1.1.0',
+430 silly addNameRange     '1.2.0',
+430 silly addNameRange     '1.2.1',
+430 silly addNameRange     '1.2.2',
+430 silly addNameRange     '1.2.3',
+430 silly addNameRange     '1.2.4',
+430 silly addNameRange     '1.2.5',
+430 silly addNameRange     '2.0.0',
+430 silly addNameRange     '2.0.1',
+430 silly addNameRange     '3.0.0',
+430 silly addNameRange     '3.0.1',
+430 silly addNameRange     '4.0.0',
+430 silly addNameRange     '4.0.1',
+430 silly addNameRange     '4.1.0' ] ]
+431 silly addNamed cache-loader@4.1.0
+432 verbose addNamed "4.1.0" is a plain semver version for cache-loader
+433 silly gunzTarPerm extractEntry lib/util/resolveLocal.js
+434 silly gunzTarPerm modified mode [ 'lib/util/resolveLocal.js', 420, 436 ]
+435 silly gunzTarPerm extractEntry lib/commands/build/resolveWcConfig.js
+436 silly gunzTarPerm modified mode [ 'lib/commands/build/resolveWcConfig.js', 420, 436 ]
+437 silly cache afterAdd cache-loader@4.1.0
+438 verbose afterAdd /home/muralimanohar/.npm/cache-loader/4.1.0/package/package.json not in flight; writing
+439 verbose correctMkdir /home/muralimanohar/.npm correctMkdir not in flight; initializing
+440 silly cache add args [ '@vue/cli-shared-utils@^4.5.19', null ]
+441 verbose cache add spec @vue/cli-shared-utils@^4.5.19
+442 silly cache add args [ 'eslint-loader@^2.2.1', null ]
+443 verbose cache add spec eslint-loader@^2.2.1
+444 silly cache add parsed spec Result {
+444 silly cache add   raw: '@vue/cli-shared-utils@^4.5.19',
+444 silly cache add   scope: '@vue',
+444 silly cache add   name: '@vue/cli-shared-utils',
+444 silly cache add   rawSpec: '^4.5.19',
+444 silly cache add   spec: '>=4.5.19 <5.0.0',
+444 silly cache add   type: 'range' }
+445 silly addNamed @vue/cli-shared-utils@>=4.5.19 <5.0.0
+446 verbose addNamed ">=4.5.19 <5.0.0" is a valid semver range for @vue/cli-shared-utils
+447 silly addNameRange { name: '@vue/cli-shared-utils',
+447 silly addNameRange   range: '>=4.5.19 <5.0.0',
+447 silly addNameRange   hasData: false }
+448 silly mapToRegistry name @vue/cli-shared-utils
+449 silly mapToRegistry scope (from package name) @vue
+450 verbose mapToRegistry no registry URL found in name for scope @vue
+451 silly mapToRegistry using default registry
+452 silly mapToRegistry registry https://registry.npmjs.org/
+453 silly mapToRegistry data Result {
+453 silly mapToRegistry   raw: '@vue/cli-shared-utils',
+453 silly mapToRegistry   scope: '@vue',
+453 silly mapToRegistry   name: '@vue/cli-shared-utils',
+453 silly mapToRegistry   rawSpec: '',
+453 silly mapToRegistry   spec: 'latest',
+453 silly mapToRegistry   type: 'tag' }
+454 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli-shared-utils
+455 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcli-shared-utils already in flight; waiting
+456 silly cache add parsed spec Result {
+456 silly cache add   raw: 'eslint-loader@^2.2.1',
+456 silly cache add   scope: null,
+456 silly cache add   name: 'eslint-loader',
+456 silly cache add   rawSpec: '^2.2.1',
+456 silly cache add   spec: '>=2.2.1 <3.0.0',
+456 silly cache add   type: 'range' }
+457 silly addNamed eslint-loader@>=2.2.1 <3.0.0
+458 verbose addNamed ">=2.2.1 <3.0.0" is a valid semver range for eslint-loader
+459 silly addNameRange { name: 'eslint-loader',
+459 silly addNameRange   range: '>=2.2.1 <3.0.0',
+459 silly addNameRange   hasData: false }
+460 silly mapToRegistry name eslint-loader
+461 silly mapToRegistry using default registry
+462 silly mapToRegistry registry https://registry.npmjs.org/
+463 silly mapToRegistry data Result {
+463 silly mapToRegistry   raw: 'eslint-loader',
+463 silly mapToRegistry   scope: null,
+463 silly mapToRegistry   name: 'eslint-loader',
+463 silly mapToRegistry   rawSpec: '',
+463 silly mapToRegistry   spec: 'latest',
+463 silly mapToRegistry   type: 'tag' }
+464 silly mapToRegistry uri https://registry.npmjs.org/eslint-loader
+465 verbose addNameRange registry:https://registry.npmjs.org/eslint-loader not in flight; fetching
+466 silly cache add args [ 'globby@^9.2.0', null ]
+467 verbose cache add spec globby@^9.2.0
+468 silly cache add parsed spec Result {
+468 silly cache add   raw: 'globby@^9.2.0',
+468 silly cache add   scope: null,
+468 silly cache add   name: 'globby',
+468 silly cache add   rawSpec: '^9.2.0',
+468 silly cache add   spec: '>=9.2.0 <10.0.0',
+468 silly cache add   type: 'range' }
+469 silly addNamed globby@>=9.2.0 <10.0.0
+470 verbose addNamed ">=9.2.0 <10.0.0" is a valid semver range for globby
+471 silly addNameRange { name: 'globby', range: '>=9.2.0 <10.0.0', hasData: false }
+472 silly mapToRegistry name globby
+473 silly mapToRegistry using default registry
+474 silly mapToRegistry registry https://registry.npmjs.org/
+475 silly mapToRegistry data Result {
+475 silly mapToRegistry   raw: 'globby',
+475 silly mapToRegistry   scope: null,
+475 silly mapToRegistry   name: 'globby',
+475 silly mapToRegistry   rawSpec: '',
+475 silly mapToRegistry   spec: 'latest',
+475 silly mapToRegistry   type: 'tag' }
+476 silly mapToRegistry uri https://registry.npmjs.org/globby
+477 verbose addNameRange registry:https://registry.npmjs.org/globby not in flight; fetching
+478 silly cache add args [ 'inquirer@^7.1.0', null ]
+479 verbose cache add spec inquirer@^7.1.0
+480 silly cache add parsed spec Result {
+480 silly cache add   raw: 'inquirer@^7.1.0',
+480 silly cache add   scope: null,
+480 silly cache add   name: 'inquirer',
+480 silly cache add   rawSpec: '^7.1.0',
+480 silly cache add   spec: '>=7.1.0 <8.0.0',
+480 silly cache add   type: 'range' }
+481 silly addNamed inquirer@>=7.1.0 <8.0.0
+482 verbose addNamed ">=7.1.0 <8.0.0" is a valid semver range for inquirer
+483 silly addNameRange { name: 'inquirer', range: '>=7.1.0 <8.0.0', hasData: false }
+484 silly mapToRegistry name inquirer
+485 silly mapToRegistry using default registry
+486 silly mapToRegistry registry https://registry.npmjs.org/
+487 silly mapToRegistry data Result {
+487 silly mapToRegistry   raw: 'inquirer',
+487 silly mapToRegistry   scope: null,
+487 silly mapToRegistry   name: 'inquirer',
+487 silly mapToRegistry   rawSpec: '',
+487 silly mapToRegistry   spec: 'latest',
+487 silly mapToRegistry   type: 'tag' }
+488 silly mapToRegistry uri https://registry.npmjs.org/inquirer
+489 verbose addNameRange registry:https://registry.npmjs.org/inquirer not in flight; fetching
+490 silly cache add args [ 'webpack@^4.0.0', null ]
+491 verbose cache add spec webpack@^4.0.0
+492 silly cache add parsed spec Result {
+492 silly cache add   raw: 'webpack@^4.0.0',
+492 silly cache add   scope: null,
+492 silly cache add   name: 'webpack',
+492 silly cache add   rawSpec: '^4.0.0',
+492 silly cache add   spec: '>=4.0.0 <5.0.0',
+492 silly cache add   type: 'range' }
+493 silly addNamed webpack@>=4.0.0 <5.0.0
+494 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for webpack
+495 silly addNameRange { name: 'webpack', range: '>=4.0.0 <5.0.0', hasData: false }
+496 silly mapToRegistry name webpack
+497 silly mapToRegistry using default registry
+498 silly mapToRegistry registry https://registry.npmjs.org/
+499 silly mapToRegistry data Result {
+499 silly mapToRegistry   raw: 'webpack',
+499 silly mapToRegistry   scope: null,
+499 silly mapToRegistry   name: 'webpack',
+499 silly mapToRegistry   rawSpec: '',
+499 silly mapToRegistry   spec: 'latest',
+499 silly mapToRegistry   type: 'tag' }
+500 silly mapToRegistry uri https://registry.npmjs.org/webpack
+501 verbose addNameRange registry:https://registry.npmjs.org/webpack already in flight; waiting
+502 silly cache add args [ 'yorkie@^2.0.0', null ]
+503 verbose cache add spec yorkie@^2.0.0
+504 silly cache add parsed spec Result {
+504 silly cache add   raw: 'yorkie@^2.0.0',
+504 silly cache add   scope: null,
+504 silly cache add   name: 'yorkie',
+504 silly cache add   rawSpec: '^2.0.0',
+504 silly cache add   spec: '>=2.0.0 <3.0.0',
+504 silly cache add   type: 'range' }
+505 silly addNamed yorkie@>=2.0.0 <3.0.0
+506 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for yorkie
+507 silly addNameRange { name: 'yorkie', range: '>=2.0.0 <3.0.0', hasData: false }
+508 silly mapToRegistry name yorkie
+509 silly mapToRegistry using default registry
+510 silly mapToRegistry registry https://registry.npmjs.org/
+511 silly mapToRegistry data Result {
+511 silly mapToRegistry   raw: 'yorkie',
+511 silly mapToRegistry   scope: null,
+511 silly mapToRegistry   name: 'yorkie',
+511 silly mapToRegistry   rawSpec: '',
+511 silly mapToRegistry   spec: 'latest',
+511 silly mapToRegistry   type: 'tag' }
+512 silly mapToRegistry uri https://registry.npmjs.org/yorkie
+513 verbose addNameRange registry:https://registry.npmjs.org/yorkie not in flight; fetching
+514 verbose afterAdd /home/muralimanohar/.npm/cache-loader/4.1.0/package/package.json written
+515 silly gunzTarPerm extractEntry lib/commands/build/resolveWcEntry.js
+516 silly gunzTarPerm modified mode [ 'lib/commands/build/resolveWcEntry.js', 420, 436 ]
+517 silly gunzTarPerm extractEntry generator/router.js
+518 silly gunzTarPerm modified mode [ 'generator/router.js', 420, 436 ]
+519 verbose request uri https://registry.npmjs.org/yorkie
+520 verbose request no auth needed
+521 info attempt registry request try #1 at 10:41:09 pm
+522 verbose etag W/"ec76ce0477c12a3cbda24021cc01ecb0"
+523 verbose lastModified Wed, 25 May 2022 07:06:54 GMT
+524 http request GET https://registry.npmjs.org/yorkie
+525 verbose request uri https://registry.npmjs.org/eslint-loader
+526 verbose request no auth needed
+527 info attempt registry request try #1 at 10:41:09 pm
+528 verbose etag W/"eda81af38903ddfc8d09ec624cb6a976"
+529 verbose lastModified Fri, 17 Jun 2022 20:25:40 GMT
+530 http request GET https://registry.npmjs.org/eslint-loader
+531 silly gunzTarPerm extractEntry lib/commands/serve.js
+532 silly gunzTarPerm modified mode [ 'lib/commands/serve.js', 420, 436 ]
+533 silly gunzTarPerm extractEntry lib/Service.js
+534 silly gunzTarPerm modified mode [ 'lib/Service.js', 420, 436 ]
+535 verbose request uri https://registry.npmjs.org/globby
+536 verbose request no auth needed
+537 info attempt registry request try #1 at 10:41:09 pm
+538 verbose etag W/"f341b2570ef1b27e34c180a2167b031a"
+539 verbose lastModified Sat, 18 Jun 2022 12:57:50 GMT
+540 http request GET https://registry.npmjs.org/globby
+541 verbose request uri https://registry.npmjs.org/@vue%2fbabel-preset-app
+542 verbose request no auth needed
+543 info attempt registry request try #1 at 10:41:09 pm
+544 verbose etag W/"ad9a2048301ef7a087448ba6b38de1ab"
+545 verbose lastModified Thu, 07 Jul 2022 10:22:07 GMT
+546 http request GET https://registry.npmjs.org/@vue%2fbabel-preset-app
+547 silly gunzTarPerm extractEntry lib/commands/build/setPublicPath.js
+548 silly gunzTarPerm modified mode [ 'lib/commands/build/setPublicPath.js', 420, 436 ]
+549 silly gunzTarPerm extractEntry lib/config/terserOptions.js
+550 silly gunzTarPerm modified mode [ 'lib/config/terserOptions.js', 420, 436 ]
+551 silly gunzTarPerm extractEntry lib/util/validateWebpackConfig.js
+552 silly gunzTarPerm modified mode [ 'lib/util/validateWebpackConfig.js', 420, 436 ]
+553 silly gunzTarPerm extractEntry bin/vue-cli-service.js
+554 silly gunzTarPerm modified mode [ 'bin/vue-cli-service.js', 493, 509 ]
+555 verbose request uri https://registry.npmjs.org/inquirer
+556 verbose request no auth needed
+557 info attempt registry request try #1 at 10:41:09 pm
+558 verbose etag W/"95b087cbac53c6c3c309763b7e405bdc"
+559 verbose lastModified Thu, 06 Oct 2022 20:54:41 GMT
+560 http request GET https://registry.npmjs.org/inquirer
+561 silly gunzTarPerm extractEntry generator/vuex.js
+562 silly gunzTarPerm modified mode [ 'generator/vuex.js', 420, 436 ]
+563 silly gunzTarPerm extractEntry webpack.config.js
+564 silly gunzTarPerm modified mode [ 'webpack.config.js', 420, 436 ]
+565 silly gunzTarPerm extractEntry package.json
+566 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+567 silly gunzTarPerm extractEntry types/tsconfig.json
+568 silly gunzTarPerm modified mode [ 'types/tsconfig.json', 420, 436 ]
+569 silly gunzTarPerm extractEntry README.md
+570 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+571 silly gunzTarPerm extractEntry generator/template/src/assets/logo.png
+572 silly gunzTarPerm modified mode [ 'generator/template/src/assets/logo.png', 420, 436 ]
+573 silly gunzTarPerm extractEntry logo.png
+574 silly gunzTarPerm modified mode [ 'logo.png', 420, 436 ]
+575 silly gunzTarPerm extractEntry types/cli-service-test.ts
+576 silly gunzTarPerm modified mode [ 'types/cli-service-test.ts', 420, 436 ]
+577 silly gunzTarPerm extractEntry types/index.d.ts
+578 silly gunzTarPerm modified mode [ 'types/index.d.ts', 420, 436 ]
+579 silly gunzTarPerm extractEntry types/ProjectOptions.d.ts
+580 silly gunzTarPerm modified mode [ 'types/ProjectOptions.d.ts', 420, 436 ]
+581 silly gunzTarPerm extractEntry generator/template/src/App.vue
+582 silly gunzTarPerm modified mode [ 'generator/template/src/App.vue', 420, 436 ]
+583 silly gunzTarPerm extractEntry generator/template/src/components/HelloWorld.vue
+584 silly gunzTarPerm modified mode [ 'generator/template/src/components/HelloWorld.vue', 420, 436 ]
+585 verbose write writing to /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service/package.json
+586 info preinstall @vue/cli-service@4.5.19
+587 verbose readDependencies loading dependencies from /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service/package.json
+588 silly prepareForInstallMany adding @intervolga/optimize-cssnano-plugin@^1.0.5 from @vue/cli-service dependencies
+589 silly prepareForInstallMany adding @soda/friendly-errors-webpack-plugin@^1.7.1 from @vue/cli-service dependencies
+590 silly prepareForInstallMany adding @soda/get-current-script@^1.0.0 from @vue/cli-service dependencies
+591 silly prepareForInstallMany adding @types/minimist@^1.2.0 from @vue/cli-service dependencies
+592 silly prepareForInstallMany adding @types/webpack@^4.0.0 from @vue/cli-service dependencies
+593 silly prepareForInstallMany adding @types/webpack-dev-server@^3.11.0 from @vue/cli-service dependencies
+594 silly prepareForInstallMany adding @vue/cli-overlay@^4.5.19 from @vue/cli-service dependencies
+595 silly prepareForInstallMany adding @vue/cli-plugin-router@^4.5.19 from @vue/cli-service dependencies
+596 silly prepareForInstallMany adding @vue/cli-plugin-vuex@^4.5.19 from @vue/cli-service dependencies
+597 silly prepareForInstallMany adding @vue/cli-shared-utils@^4.5.19 from @vue/cli-service dependencies
+598 silly prepareForInstallMany adding @vue/component-compiler-utils@^3.1.2 from @vue/cli-service dependencies
+599 silly prepareForInstallMany adding @vue/preload-webpack-plugin@^1.1.0 from @vue/cli-service dependencies
+600 silly prepareForInstallMany adding @vue/web-component-wrapper@^1.2.0 from @vue/cli-service dependencies
+601 silly prepareForInstallMany adding acorn@^7.4.0 from @vue/cli-service dependencies
+602 silly prepareForInstallMany adding acorn-walk@^7.1.1 from @vue/cli-service dependencies
+603 silly prepareForInstallMany adding address@^1.1.2 from @vue/cli-service dependencies
+604 silly prepareForInstallMany adding autoprefixer@^9.8.6 from @vue/cli-service dependencies
+605 silly prepareForInstallMany adding browserslist@^4.12.0 from @vue/cli-service dependencies
+606 silly prepareForInstallMany adding cache-loader@^4.1.0 from @vue/cli-service dependencies
+607 silly prepareForInstallMany adding case-sensitive-paths-webpack-plugin@^2.3.0 from @vue/cli-service dependencies
+608 silly prepareForInstallMany adding cli-highlight@^2.1.4 from @vue/cli-service dependencies
+609 silly prepareForInstallMany adding clipboardy@^2.3.0 from @vue/cli-service dependencies
+610 silly prepareForInstallMany adding cliui@^6.0.0 from @vue/cli-service dependencies
+611 silly prepareForInstallMany adding copy-webpack-plugin@^5.1.1 from @vue/cli-service dependencies
+612 silly prepareForInstallMany adding css-loader@^3.5.3 from @vue/cli-service dependencies
+613 silly prepareForInstallMany adding cssnano@^4.1.10 from @vue/cli-service dependencies
+614 silly prepareForInstallMany adding debug@^4.1.1 from @vue/cli-service dependencies
+615 silly prepareForInstallMany adding default-gateway@^5.0.5 from @vue/cli-service dependencies
+616 silly prepareForInstallMany adding dotenv@^8.2.0 from @vue/cli-service dependencies
+617 silly prepareForInstallMany adding dotenv-expand@^5.1.0 from @vue/cli-service dependencies
+618 silly prepareForInstallMany adding file-loader@^4.2.0 from @vue/cli-service dependencies
+619 silly prepareForInstallMany adding fs-extra@^7.0.1 from @vue/cli-service dependencies
+620 silly prepareForInstallMany adding globby@^9.2.0 from @vue/cli-service dependencies
+621 silly prepareForInstallMany adding hash-sum@^2.0.0 from @vue/cli-service dependencies
+622 silly prepareForInstallMany adding html-webpack-plugin@^3.2.0 from @vue/cli-service dependencies
+623 silly prepareForInstallMany adding launch-editor-middleware@^2.2.1 from @vue/cli-service dependencies
+624 silly prepareForInstallMany adding lodash.defaultsdeep@^4.6.1 from @vue/cli-service dependencies
+625 silly prepareForInstallMany adding lodash.mapvalues@^4.6.0 from @vue/cli-service dependencies
+626 silly prepareForInstallMany adding lodash.transform@^4.6.0 from @vue/cli-service dependencies
+627 silly prepareForInstallMany adding mini-css-extract-plugin@^0.9.0 from @vue/cli-service dependencies
+628 silly prepareForInstallMany adding minimist@^1.2.5 from @vue/cli-service dependencies
+629 silly prepareForInstallMany adding pnp-webpack-plugin@^1.6.4 from @vue/cli-service dependencies
+630 silly prepareForInstallMany adding portfinder@^1.0.26 from @vue/cli-service dependencies
+631 silly prepareForInstallMany adding postcss-loader@^3.0.0 from @vue/cli-service dependencies
+632 silly prepareForInstallMany adding ssri@^8.0.1 from @vue/cli-service dependencies
+633 silly prepareForInstallMany adding terser-webpack-plugin@^1.4.4 from @vue/cli-service dependencies
+634 silly prepareForInstallMany adding thread-loader@^2.1.3 from @vue/cli-service dependencies
+635 silly prepareForInstallMany adding url-loader@^2.2.0 from @vue/cli-service dependencies
+636 silly prepareForInstallMany adding vue-loader@^15.9.2 from @vue/cli-service dependencies
+637 silly prepareForInstallMany adding vue-style-loader@^4.1.2 from @vue/cli-service dependencies
+638 silly prepareForInstallMany adding webpack@^4.0.0 from @vue/cli-service dependencies
+639 silly prepareForInstallMany adding webpack-bundle-analyzer@^3.8.0 from @vue/cli-service dependencies
+640 silly prepareForInstallMany adding webpack-chain@^6.4.0 from @vue/cli-service dependencies
+641 silly prepareForInstallMany adding webpack-dev-server@^3.11.0 from @vue/cli-service dependencies
+642 silly prepareForInstallMany adding webpack-merge@^4.2.2 from @vue/cli-service dependencies
+643 silly prepareForInstallMany adding vue-loader-v16@npm:vue-loader@^16.1.0 from @vue/cli-service dependencies
+644 silly prepareForInstallMany adding @vue/compiler-sfc@^3.0.0-beta.14 from @vue/cli-service peerDependencies
+645 silly prepareForInstallMany adding vue-template-compiler@^2.0.0 from @vue/cli-service peerDependencies
+646 warn peerDependencies The peer dependency @vue/compiler-sfc@^3.0.0-beta.14 included from @vue/cli-service will no
+647 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+648 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+649 warn peerDependencies The peer dependency vue-template-compiler@^2.0.0 included from @vue/cli-service will no
+650 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+651 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+652 verbose readDependencies loading dependencies from /home/muralimanohar/Desktop/code/or_code_project/qr_code/node_modules/@vue/cli-service/package.json
+653 silly cache add args [ '@intervolga/optimize-cssnano-plugin@^1.0.5', null ]
+654 verbose cache add spec @intervolga/optimize-cssnano-plugin@^1.0.5
+655 silly cache add args [ '@soda/friendly-errors-webpack-plugin@^1.7.1', null ]
+656 verbose cache add spec @soda/friendly-errors-webpack-plugin@^1.7.1
+657 silly cache add parsed spec Result {
+657 silly cache add   raw: '@intervolga/optimize-cssnano-plugin@^1.0.5',
+657 silly cache add   scope: '@intervolga',
+657 silly cache add   name: '@intervolga/optimize-cssnano-plugin',
+657 silly cache add   rawSpec: '^1.0.5',
+657 silly cache add   spec: '>=1.0.5 <2.0.0',
+657 silly cache add   type: 'range' }
+658 silly addNamed @intervolga/optimize-cssnano-plugin@>=1.0.5 <2.0.0
+659 verbose addNamed ">=1.0.5 <2.0.0" is a valid semver range for @intervolga/optimize-cssnano-plugin
+660 silly addNameRange { name: '@intervolga/optimize-cssnano-plugin',
+660 silly addNameRange   range: '>=1.0.5 <2.0.0',
+660 silly addNameRange   hasData: false }
+661 silly mapToRegistry name @intervolga/optimize-cssnano-plugin
+662 silly mapToRegistry scope (from package name) @intervolga
+663 verbose mapToRegistry no registry URL found in name for scope @intervolga
+664 silly mapToRegistry using default registry
+665 silly mapToRegistry registry https://registry.npmjs.org/
+666 silly mapToRegistry data Result {
+666 silly mapToRegistry   raw: '@intervolga/optimize-cssnano-plugin',
+666 silly mapToRegistry   scope: '@intervolga',
+666 silly mapToRegistry   name: '@intervolga/optimize-cssnano-plugin',
+666 silly mapToRegistry   rawSpec: '',
+666 silly mapToRegistry   spec: 'latest',
+666 silly mapToRegistry   type: 'tag' }
+667 silly mapToRegistry uri https://registry.npmjs.org/@intervolga%2foptimize-cssnano-plugin
+668 verbose addNameRange registry:https://registry.npmjs.org/@intervolga%2foptimize-cssnano-plugin not in flight; fetching
+669 silly cache add parsed spec Result {
+669 silly cache add   raw: '@soda/friendly-errors-webpack-plugin@^1.7.1',
+669 silly cache add   scope: '@soda',
+669 silly cache add   name: '@soda/friendly-errors-webpack-plugin',
+669 silly cache add   rawSpec: '^1.7.1',
+669 silly cache add   spec: '>=1.7.1 <2.0.0',
+669 silly cache add   type: 'range' }
+670 silly addNamed @soda/friendly-errors-webpack-plugin@>=1.7.1 <2.0.0
+671 verbose addNamed ">=1.7.1 <2.0.0" is a valid semver range for @soda/friendly-errors-webpack-plugin
+672 silly addNameRange { name: '@soda/friendly-errors-webpack-plugin',
+672 silly addNameRange   range: '>=1.7.1 <2.0.0',
+672 silly addNameRange   hasData: false }
+673 silly mapToRegistry name @soda/friendly-errors-webpack-plugin
+674 silly mapToRegistry scope (from package name) @soda
+675 verbose mapToRegistry no registry URL found in name for scope @soda
+676 silly mapToRegistry using default registry
+677 silly mapToRegistry registry https://registry.npmjs.org/
+678 silly mapToRegistry data Result {
+678 silly mapToRegistry   raw: '@soda/friendly-errors-webpack-plugin',
+678 silly mapToRegistry   scope: '@soda',
+678 silly mapToRegistry   name: '@soda/friendly-errors-webpack-plugin',
+678 silly mapToRegistry   rawSpec: '',
+678 silly mapToRegistry   spec: 'latest',
+678 silly mapToRegistry   type: 'tag' }
+679 silly mapToRegistry uri https://registry.npmjs.org/@soda%2ffriendly-errors-webpack-plugin
+680 verbose addNameRange registry:https://registry.npmjs.org/@soda%2ffriendly-errors-webpack-plugin not in flight; fetching
+681 silly cache add args [ '@soda/get-current-script@^1.0.0', null ]
+682 verbose cache add spec @soda/get-current-script@^1.0.0
+683 silly cache add parsed spec Result {
+683 silly cache add   raw: '@soda/get-current-script@^1.0.0',
+683 silly cache add   scope: '@soda',
+683 silly cache add   name: '@soda/get-current-script',
+683 silly cache add   rawSpec: '^1.0.0',
+683 silly cache add   spec: '>=1.0.0 <2.0.0',
+683 silly cache add   type: 'range' }
+684 silly addNamed @soda/get-current-script@>=1.0.0 <2.0.0
+685 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for @soda/get-current-script
+686 silly addNameRange { name: '@soda/get-current-script',
+686 silly addNameRange   range: '>=1.0.0 <2.0.0',
+686 silly addNameRange   hasData: false }
+687 silly mapToRegistry name @soda/get-current-script
+688 silly mapToRegistry scope (from package name) @soda
+689 verbose mapToRegistry no registry URL found in name for scope @soda
+690 silly mapToRegistry using default registry
+691 silly mapToRegistry registry https://registry.npmjs.org/
+692 silly mapToRegistry data Result {
+692 silly mapToRegistry   raw: '@soda/get-current-script',
+692 silly mapToRegistry   scope: '@soda',
+692 silly mapToRegistry   name: '@soda/get-current-script',
+692 silly mapToRegistry   rawSpec: '',
+692 silly mapToRegistry   spec: 'latest',
+692 silly mapToRegistry   type: 'tag' }
+693 silly mapToRegistry uri https://registry.npmjs.org/@soda%2fget-current-script
+694 verbose addNameRange registry:https://registry.npmjs.org/@soda%2fget-current-script not in flight; fetching
+695 silly cache add args [ '@types/minimist@^1.2.0', null ]
+696 verbose cache add spec @types/minimist@^1.2.0
+697 silly cache add parsed spec Result {
+697 silly cache add   raw: '@types/minimist@^1.2.0',
+697 silly cache add   scope: '@types',
+697 silly cache add   name: '@types/minimist',
+697 silly cache add   rawSpec: '^1.2.0',
+697 silly cache add   spec: '>=1.2.0 <2.0.0',
+697 silly cache add   type: 'range' }
+698 silly addNamed @types/minimist@>=1.2.0 <2.0.0
+699 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for @types/minimist
+700 silly addNameRange { name: '@types/minimist',
+700 silly addNameRange   range: '>=1.2.0 <2.0.0',
+700 silly addNameRange   hasData: false }
+701 silly mapToRegistry name @types/minimist
+702 silly mapToRegistry scope (from package name) @types
+703 verbose mapToRegistry no registry URL found in name for scope @types
+704 silly mapToRegistry using default registry
+705 silly mapToRegistry registry https://registry.npmjs.org/
+706 silly mapToRegistry data Result {
+706 silly mapToRegistry   raw: '@types/minimist',
+706 silly mapToRegistry   scope: '@types',
+706 silly mapToRegistry   name: '@types/minimist',
+706 silly mapToRegistry   rawSpec: '',
+706 silly mapToRegistry   spec: 'latest',
+706 silly mapToRegistry   type: 'tag' }
+707 silly mapToRegistry uri https://registry.npmjs.org/@types%2fminimist
+708 verbose addNameRange registry:https://registry.npmjs.org/@types%2fminimist not in flight; fetching
+709 silly cache add args [ '@types/webpack@^4.0.0', null ]
+710 verbose cache add spec @types/webpack@^4.0.0
+711 silly cache add parsed spec Result {
+711 silly cache add   raw: '@types/webpack@^4.0.0',
+711 silly cache add   scope: '@types',
+711 silly cache add   name: '@types/webpack',
+711 silly cache add   rawSpec: '^4.0.0',
+711 silly cache add   spec: '>=4.0.0 <5.0.0',
+711 silly cache add   type: 'range' }
+712 silly addNamed @types/webpack@>=4.0.0 <5.0.0
+713 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for @types/webpack
+714 silly addNameRange { name: '@types/webpack',
+714 silly addNameRange   range: '>=4.0.0 <5.0.0',
+714 silly addNameRange   hasData: false }
+715 silly mapToRegistry name @types/webpack
+716 silly mapToRegistry scope (from package name) @types
+717 verbose mapToRegistry no registry URL found in name for scope @types
+718 silly mapToRegistry using default registry
+719 silly mapToRegistry registry https://registry.npmjs.org/
+720 silly mapToRegistry data Result {
+720 silly mapToRegistry   raw: '@types/webpack',
+720 silly mapToRegistry   scope: '@types',
+720 silly mapToRegistry   name: '@types/webpack',
+720 silly mapToRegistry   rawSpec: '',
+720 silly mapToRegistry   spec: 'latest',
+720 silly mapToRegistry   type: 'tag' }
+721 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwebpack
+722 verbose addNameRange registry:https://registry.npmjs.org/@types%2fwebpack not in flight; fetching
+723 verbose request uri https://registry.npmjs.org/@soda%2ffriendly-errors-webpack-plugin
+724 verbose request no auth needed
+725 info attempt registry request try #1 at 10:41:09 pm
+726 verbose etag W/"72a4895be51b9af7b7074c1f1b469921"
+727 verbose lastModified Thu, 07 Apr 2022 01:07:12 GMT
+728 http request GET https://registry.npmjs.org/@soda%2ffriendly-errors-webpack-plugin
+729 verbose request uri https://registry.npmjs.org/@soda%2fget-current-script
+730 verbose request no auth needed
+731 info attempt registry request try #1 at 10:41:09 pm
+732 verbose etag W/"6d76fbf8e76c3ed3aeb3186a985d5e15"
+733 verbose lastModified Thu, 07 Apr 2022 01:07:12 GMT
+734 http request GET https://registry.npmjs.org/@soda%2fget-current-script
+735 silly cache add args [ '@types/webpack-dev-server@^3.11.0', null ]
+736 verbose cache add spec @types/webpack-dev-server@^3.11.0
+737 silly cache add parsed spec Result {
+737 silly cache add   raw: '@types/webpack-dev-server@^3.11.0',
+737 silly cache add   scope: '@types',
+737 silly cache add   name: '@types/webpack-dev-server',
+737 silly cache add   rawSpec: '^3.11.0',
+737 silly cache add   spec: '>=3.11.0 <4.0.0',
+737 silly cache add   type: 'range' }
+738 silly addNamed @types/webpack-dev-server@>=3.11.0 <4.0.0
+739 verbose addNamed ">=3.11.0 <4.0.0" is a valid semver range for @types/webpack-dev-server
+740 silly addNameRange { name: '@types/webpack-dev-server',
+740 silly addNameRange   range: '>=3.11.0 <4.0.0',
+740 silly addNameRange   hasData: false }
+741 silly mapToRegistry name @types/webpack-dev-server
+742 silly mapToRegistry scope (from package name) @types
+743 verbose mapToRegistry no registry URL found in name for scope @types
+744 silly mapToRegistry using default registry
+745 silly mapToRegistry registry https://registry.npmjs.org/
+746 silly mapToRegistry data Result {
+746 silly mapToRegistry   raw: '@types/webpack-dev-server',
+746 silly mapToRegistry   scope: '@types',
+746 silly mapToRegistry   name: '@types/webpack-dev-server',
+746 silly mapToRegistry   rawSpec: '',
+746 silly mapToRegistry   spec: 'latest',
+746 silly mapToRegistry   type: 'tag' }
+747 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwebpack-dev-server
+748 verbose addNameRange registry:https://registry.npmjs.org/@types%2fwebpack-dev-server not in flight; fetching
+749 silly cache add args [ '@vue/cli-overlay@^4.5.19', null ]
+750 verbose cache add spec @vue/cli-overlay@^4.5.19
+751 silly cache add parsed spec Result {
+751 silly cache add   raw: '@vue/cli-overlay@^4.5.19',
+751 silly cache add   scope: '@vue',
+751 silly cache add   name: '@vue/cli-overlay',
+751 silly cache add   rawSpec: '^4.5.19',
+751 silly cache add   spec: '>=4.5.19 <5.0.0',
+751 silly cache add   type: 'range' }
+752 silly addNamed @vue/cli-overlay@>=4.5.19 <5.0.0
+753 verbose addNamed ">=4.5.19 <5.0.0" is a valid semver range for @vue/cli-overlay
+754 silly addNameRange { name: '@vue/cli-overlay',
+754 silly addNameRange   range: '>=4.5.19 <5.0.0',
+754 silly addNameRange   hasData: false }
+755 silly mapToRegistry name @vue/cli-overlay
+756 silly mapToRegistry scope (from package name) @vue
+757 verbose mapToRegistry no registry URL found in name for scope @vue
+758 silly mapToRegistry using default registry
+759 silly mapToRegistry registry https://registry.npmjs.org/
+760 silly mapToRegistry data Result {
+760 silly mapToRegistry   raw: '@vue/cli-overlay',
+760 silly mapToRegistry   scope: '@vue',
+760 silly mapToRegistry   name: '@vue/cli-overlay',
+760 silly mapToRegistry   rawSpec: '',
+760 silly mapToRegistry   spec: 'latest',
+760 silly mapToRegistry   type: 'tag' }
+761 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli-overlay
+762 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcli-overlay not in flight; fetching
+763 silly cache add args [ '@vue/cli-plugin-router@^4.5.19', null ]
+764 verbose cache add spec @vue/cli-plugin-router@^4.5.19
+765 silly cache add parsed spec Result {
+765 silly cache add   raw: '@vue/cli-plugin-router@^4.5.19',
+765 silly cache add   scope: '@vue',
+765 silly cache add   name: '@vue/cli-plugin-router',
+765 silly cache add   rawSpec: '^4.5.19',
+765 silly cache add   spec: '>=4.5.19 <5.0.0',
+765 silly cache add   type: 'range' }
+766 silly addNamed @vue/cli-plugin-router@>=4.5.19 <5.0.0
+767 verbose addNamed ">=4.5.19 <5.0.0" is a valid semver range for @vue/cli-plugin-router
+768 silly addNameRange { name: '@vue/cli-plugin-router',
+768 silly addNameRange   range: '>=4.5.19 <5.0.0',
+768 silly addNameRange   hasData: false }
+769 silly mapToRegistry name @vue/cli-plugin-router
+770 silly mapToRegistry scope (from package name) @vue
+771 verbose mapToRegistry no registry URL found in name for scope @vue
+772 silly mapToRegistry using default registry
+773 silly mapToRegistry registry https://registry.npmjs.org/
+774 silly mapToRegistry data Result {
+774 silly mapToRegistry   raw: '@vue/cli-plugin-router',
+774 silly mapToRegistry   scope: '@vue',
+774 silly mapToRegistry   name: '@vue/cli-plugin-router',
+774 silly mapToRegistry   rawSpec: '',
+774 silly mapToRegistry   spec: 'latest',
+774 silly mapToRegistry   type: 'tag' }
+775 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli-plugin-router
+776 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcli-plugin-router not in flight; fetching
+777 silly cache add args [ '@vue/cli-plugin-vuex@^4.5.19', null ]
+778 verbose cache add spec @vue/cli-plugin-vuex@^4.5.19
+779 silly cache add parsed spec Result {
+779 silly cache add   raw: '@vue/cli-plugin-vuex@^4.5.19',
+779 silly cache add   scope: '@vue',
+779 silly cache add   name: '@vue/cli-plugin-vuex',
+779 silly cache add   rawSpec: '^4.5.19',
+779 silly cache add   spec: '>=4.5.19 <5.0.0',
+779 silly cache add   type: 'range' }
+780 silly addNamed @vue/cli-plugin-vuex@>=4.5.19 <5.0.0
+781 verbose addNamed ">=4.5.19 <5.0.0" is a valid semver range for @vue/cli-plugin-vuex
+782 silly addNameRange { name: '@vue/cli-plugin-vuex',
+782 silly addNameRange   range: '>=4.5.19 <5.0.0',
+782 silly addNameRange   hasData: false }
+783 silly mapToRegistry name @vue/cli-plugin-vuex
+784 silly mapToRegistry scope (from package name) @vue
+785 verbose mapToRegistry no registry URL found in name for scope @vue
+786 silly mapToRegistry using default registry
+787 silly mapToRegistry registry https://registry.npmjs.org/
+788 silly mapToRegistry data Result {
+788 silly mapToRegistry   raw: '@vue/cli-plugin-vuex',
+788 silly mapToRegistry   scope: '@vue',
+788 silly mapToRegistry   name: '@vue/cli-plugin-vuex',
+788 silly mapToRegistry   rawSpec: '',
+788 silly mapToRegistry   spec: 'latest',
+788 silly mapToRegistry   type: 'tag' }
+789 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli-plugin-vuex
+790 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcli-plugin-vuex not in flight; fetching
+791 silly cache add args [ '@vue/cli-shared-utils@^4.5.19', null ]
+792 verbose cache add spec @vue/cli-shared-utils@^4.5.19
+793 silly cache add parsed spec Result {
+793 silly cache add   raw: '@vue/cli-shared-utils@^4.5.19',
+793 silly cache add   scope: '@vue',
+793 silly cache add   name: '@vue/cli-shared-utils',
+793 silly cache add   rawSpec: '^4.5.19',
+793 silly cache add   spec: '>=4.5.19 <5.0.0',
+793 silly cache add   type: 'range' }
+794 silly addNamed @vue/cli-shared-utils@>=4.5.19 <5.0.0
+795 verbose addNamed ">=4.5.19 <5.0.0" is a valid semver range for @vue/cli-shared-utils
+796 silly addNameRange { name: '@vue/cli-shared-utils',
+796 silly addNameRange   range: '>=4.5.19 <5.0.0',
+796 silly addNameRange   hasData: false }
+797 silly mapToRegistry name @vue/cli-shared-utils
+798 silly mapToRegistry scope (from package name) @vue
+799 verbose mapToRegistry no registry URL found in name for scope @vue
+800 silly mapToRegistry using default registry
+801 silly mapToRegistry registry https://registry.npmjs.org/
+802 silly mapToRegistry data Result {
+802 silly mapToRegistry   raw: '@vue/cli-shared-utils',
+802 silly mapToRegistry   scope: '@vue',
+802 silly mapToRegistry   name: '@vue/cli-shared-utils',
+802 silly mapToRegistry   rawSpec: '',
+802 silly mapToRegistry   spec: 'latest',
+802 silly mapToRegistry   type: 'tag' }
+803 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli-shared-utils
+804 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcli-shared-utils already in flight; waiting
+805 silly cache add args [ '@vue/component-compiler-utils@^3.1.2', null ]
+806 verbose cache add spec @vue/component-compiler-utils@^3.1.2
+807 silly cache add parsed spec Result {
+807 silly cache add   raw: '@vue/component-compiler-utils@^3.1.2',
+807 silly cache add   scope: '@vue',
+807 silly cache add   name: '@vue/component-compiler-utils',
+807 silly cache add   rawSpec: '^3.1.2',
+807 silly cache add   spec: '>=3.1.2 <4.0.0',
+807 silly cache add   type: 'range' }
+808 silly addNamed @vue/component-compiler-utils@>=3.1.2 <4.0.0
+809 verbose addNamed ">=3.1.2 <4.0.0" is a valid semver range for @vue/component-compiler-utils
+810 silly addNameRange { name: '@vue/component-compiler-utils',
+810 silly addNameRange   range: '>=3.1.2 <4.0.0',
+810 silly addNameRange   hasData: false }
+811 silly mapToRegistry name @vue/component-compiler-utils
+812 silly mapToRegistry scope (from package name) @vue
+813 verbose mapToRegistry no registry URL found in name for scope @vue
+814 silly mapToRegistry using default registry
+815 silly mapToRegistry registry https://registry.npmjs.org/
+816 silly mapToRegistry data Result {
+816 silly mapToRegistry   raw: '@vue/component-compiler-utils',
+816 silly mapToRegistry   scope: '@vue',
+816 silly mapToRegistry   name: '@vue/component-compiler-utils',
+816 silly mapToRegistry   rawSpec: '',
+816 silly mapToRegistry   spec: 'latest',
+816 silly mapToRegistry   type: 'tag' }
+817 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcomponent-compiler-utils
+818 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fcomponent-compiler-utils not in flight; fetching
+819 silly cache add args [ '@vue/preload-webpack-plugin@^1.1.0', null ]
+820 verbose cache add spec @vue/preload-webpack-plugin@^1.1.0
+821 silly cache add parsed spec Result {
+821 silly cache add   raw: '@vue/preload-webpack-plugin@^1.1.0',
+821 silly cache add   scope: '@vue',
+821 silly cache add   name: '@vue/preload-webpack-plugin',
+821 silly cache add   rawSpec: '^1.1.0',
+821 silly cache add   spec: '>=1.1.0 <2.0.0',
+821 silly cache add   type: 'range' }
+822 silly addNamed @vue/preload-webpack-plugin@>=1.1.0 <2.0.0
+823 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for @vue/preload-webpack-plugin
+824 silly addNameRange { name: '@vue/preload-webpack-plugin',
+824 silly addNameRange   range: '>=1.1.0 <2.0.0',
+824 silly addNameRange   hasData: false }
+825 silly mapToRegistry name @vue/preload-webpack-plugin
+826 silly mapToRegistry scope (from package name) @vue
+827 verbose mapToRegistry no registry URL found in name for scope @vue
+828 silly mapToRegistry using default registry
+829 silly mapToRegistry registry https://registry.npmjs.org/
+830 silly mapToRegistry data Result {
+830 silly mapToRegistry   raw: '@vue/preload-webpack-plugin',
+830 silly mapToRegistry   scope: '@vue',
+830 silly mapToRegistry   name: '@vue/preload-webpack-plugin',
+830 silly mapToRegistry   rawSpec: '',
+830 silly mapToRegistry   spec: 'latest',
+830 silly mapToRegistry   type: 'tag' }
+831 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fpreload-webpack-plugin
+832 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fpreload-webpack-plugin not in flight; fetching
+833 silly cache add args [ '@vue/web-component-wrapper@^1.2.0', null ]
+834 verbose cache add spec @vue/web-component-wrapper@^1.2.0
+835 silly cache add parsed spec Result {
+835 silly cache add   raw: '@vue/web-component-wrapper@^1.2.0',
+835 silly cache add   scope: '@vue',
+835 silly cache add   name: '@vue/web-component-wrapper',
+835 silly cache add   rawSpec: '^1.2.0',
+835 silly cache add   spec: '>=1.2.0 <2.0.0',
+835 silly cache add   type: 'range' }
+836 silly addNamed @vue/web-component-wrapper@>=1.2.0 <2.0.0
+837 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for @vue/web-component-wrapper
+838 silly addNameRange { name: '@vue/web-component-wrapper',
+838 silly addNameRange   range: '>=1.2.0 <2.0.0',
+838 silly addNameRange   hasData: false }
+839 silly mapToRegistry name @vue/web-component-wrapper
+840 silly mapToRegistry scope (from package name) @vue
+841 verbose mapToRegistry no registry URL found in name for scope @vue
+842 silly mapToRegistry using default registry
+843 silly mapToRegistry registry https://registry.npmjs.org/
+844 silly mapToRegistry data Result {
+844 silly mapToRegistry   raw: '@vue/web-component-wrapper',
+844 silly mapToRegistry   scope: '@vue',
+844 silly mapToRegistry   name: '@vue/web-component-wrapper',
+844 silly mapToRegistry   rawSpec: '',
+844 silly mapToRegistry   spec: 'latest',
+844 silly mapToRegistry   type: 'tag' }
+845 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fweb-component-wrapper
+846 verbose addNameRange registry:https://registry.npmjs.org/@vue%2fweb-component-wrapper not in flight; fetching
+847 silly cache add args [ 'acorn@^7.4.0', null ]
+848 verbose cache add spec acorn@^7.4.0
+849 silly cache add parsed spec Result {
+849 silly cache add   raw: 'acorn@^7.4.0',
+849 silly cache add   scope: null,
+849 silly cache add   name: 'acorn',
+849 silly cache add   rawSpec: '^7.4.0',
+849 silly cache add   spec: '>=7.4.0 <8.0.0',
+849 silly cache add   type: 'range' }
+850 silly addNamed acorn@>=7.4.0 <8.0.0
+851 verbose addNamed ">=7.4.0 <8.0.0" is a valid semver range for acorn
+852 silly addNameRange { name: 'acorn', range: '>=7.4.0 <8.0.0', hasData: false }
+853 silly mapToRegistry name acorn
+854 silly mapToRegistry using default registry
+855 silly mapToRegistry registry https://registry.npmjs.org/
+856 silly mapToRegistry data Result {
+856 silly mapToRegistry   raw: 'acorn',
+856 silly mapToRegistry   scope: null,
+856 silly mapToRegistry   name: 'acorn',
+856 silly mapToRegistry   rawSpec: '',
+856 silly mapToRegistry   spec: 'latest',
+856 silly mapToRegistry   type: 'tag' }
+857 silly mapToRegistry uri https://registry.npmjs.org/acorn
+858 verbose addNameRange registry:https://registry.npmjs.org/acorn not in flight; fetching
+859 verbose request uri https://registry.npmjs.org/@intervolga%2foptimize-cssnano-plugin
+860 verbose request no auth needed
+861 info attempt registry request try #1 at 10:41:09 pm
+862 verbose etag W/"e87e7190d29b7e20331c363e567bfb5e"
+863 verbose lastModified Tue, 05 Apr 2022 20:45:52 GMT
+864 http request GET https://registry.npmjs.org/@intervolga%2foptimize-cssnano-plugin
+865 silly cache add args [ 'acorn-walk@^7.1.1', null ]
+866 verbose cache add spec acorn-walk@^7.1.1
+867 silly cache add parsed spec Result {
+867 silly cache add   raw: 'acorn-walk@^7.1.1',
+867 silly cache add   scope: null,
+867 silly cache add   name: 'acorn-walk',
+867 silly cache add   rawSpec: '^7.1.1',
+867 silly cache add   spec: '>=7.1.1 <8.0.0',
+867 silly cache add   type: 'range' }
+868 silly addNamed acorn-walk@>=7.1.1 <8.0.0
+869 verbose addNamed ">=7.1.1 <8.0.0" is a valid semver range for acorn-walk
+870 silly addNameRange { name: 'acorn-walk', range: '>=7.1.1 <8.0.0', hasData: false }
+871 silly mapToRegistry name acorn-walk
+872 silly mapToRegistry using default registry
+873 silly mapToRegistry registry https://registry.npmjs.org/
+874 silly mapToRegistry data Result {
+874 silly mapToRegistry   raw: 'acorn-walk',
+874 silly mapToRegistry   scope: null,
+874 silly mapToRegistry   name: 'acorn-walk',
+874 silly mapToRegistry   rawSpec: '',
+874 silly mapToRegistry   spec: 'latest',
+874 silly mapToRegistry   type: 'tag' }
+875 silly mapToRegistry uri https://registry.npmjs.org/acorn-walk
+876 verbose addNameRange registry:https://registry.npmjs.org/acorn-walk not in flight; fetching
+877 silly cache add args [ 'address@^1.1.2', null ]
+878 verbose cache add spec address@^1.1.2
+879 silly cache add parsed spec Result {
+879 silly cache add   raw: 'address@^1.1.2',
+879 silly cache add   scope: null,
+879 silly cache add   name: 'address',
+879 silly cache add   rawSpec: '^1.1.2',
+879 silly cache add   spec: '>=1.1.2 <2.0.0',
+879 silly cache add   type: 'range' }
+880 silly addNamed address@>=1.1.2 <2.0.0
+881 verbose addNamed ">=1.1.2 <2.0.0" is a valid semver range for address
+882 silly addNameRange { name: 'address', range: '>=1.1.2 <2.0.0', hasData: false }
+883 silly mapToRegistry name address
+884 silly mapToRegistry using default registry
+885 silly mapToRegistry registry https://registry.npmjs.org/
+886 silly mapToRegistry data Result {
+886 silly mapToRegistry   raw: 'address',
+886 silly mapToRegistry   scope: null,
+886 silly mapToRegistry   name: 'address',
+886 silly mapToRegistry   rawSpec: '',
+886 silly mapToRegistry   spec: 'latest',
+886 silly mapToRegistry   type: 'tag' }
+887 silly mapToRegistry uri https://registry.npmjs.org/address
+888 verbose addNameRange registry:https://registry.npmjs.org/address not in flight; fetching
+889 silly cache add args [ 'autoprefixer@^9.8.6', null ]
+890 verbose cache add spec autoprefixer@^9.8.6
+891 silly cache add parsed spec Result {
+891 silly cache add   raw: 'autoprefixer@^9.8.6',
+891 silly cache add   scope: null,
+891 silly cache add   name: 'autoprefixer',
+891 silly cache add   rawSpec: '^9.8.6',
+891 silly cache add   spec: '>=9.8.6 <10.0.0',
+891 silly cache add   type: 'range' }
+892 silly addNamed autoprefixer@>=9.8.6 <10.0.0
+893 verbose addNamed ">=9.8.6 <10.0.0" is a valid semver range for autoprefixer
+894 silly addNameRange { name: 'autoprefixer',
+894 silly addNameRange   range: '>=9.8.6 <10.0.0',
+894 silly addNameRange   hasData: false }
+895 silly mapToRegistry name autoprefixer
+896 silly mapToRegistry using default registry
+897 silly mapToRegistry registry https://registry.npmjs.org/
+898 silly mapToRegistry data Result {
+898 silly mapToRegistry   raw: 'autoprefixer',
+898 silly mapToRegistry   scope: null,
+898 silly mapToRegistry   name: 'autoprefixer',
+898 silly mapToRegistry   rawSpec: '',
+898 silly mapToRegistry   spec: 'latest',
+898 silly mapToRegistry   type: 'tag' }
+899 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+900 verbose addNameRange registry:https://registry.npmjs.org/autoprefixer not in flight; fetching
+901 silly cache add args [ 'browserslist@^4.12.0', null ]
+902 verbose cache add spec browserslist@^4.12.0
+903 silly cache add parsed spec Result {
+903 silly cache add   raw: 'browserslist@^4.12.0',
+903 silly cache add   scope: null,
+903 silly cache add   name: 'browserslist',
+903 silly cache add   rawSpec: '^4.12.0',
+903 silly cache add   spec: '>=4.12.0 <5.0.0',
+903 silly cache add   type: 'range' }
+904 silly addNamed browserslist@>=4.12.0 <5.0.0
+905 verbose addNamed ">=4.12.0 <5.0.0" is a valid semver range for browserslist
+906 silly addNameRange { name: 'browserslist',
+906 silly addNameRange   range: '>=4.12.0 <5.0.0',
+906 silly addNameRange   hasData: false }
+907 silly mapToRegistry name browserslist
+908 silly mapToRegistry using default registry
+909 silly mapToRegistry registry https://registry.npmjs.org/
+910 silly mapToRegistry data Result {
+910 silly mapToRegistry   raw: 'browserslist',
+910 silly mapToRegistry   scope: null,
+910 silly mapToRegistry   name: 'browserslist',
+910 silly mapToRegistry   rawSpec: '',
+910 silly mapToRegistry   spec: 'latest',
+910 silly mapToRegistry   type: 'tag' }
+911 silly mapToRegistry uri https://registry.npmjs.org/browserslist
+912 verbose addNameRange registry:https://registry.npmjs.org/browserslist not in flight; fetching
+913 verbose request uri https://registry.npmjs.org/@types%2fminimist
+914 verbose request no auth needed
+915 info attempt registry request try #1 at 10:41:09 pm
+916 verbose etag W/"712ea03bd48d9ac8c88e7453926aaeba"
+917 verbose lastModified Mon, 15 Aug 2022 08:30:29 GMT
+918 http request GET https://registry.npmjs.org/@types%2fminimist
+919 silly cache add args [ 'cache-loader@^4.1.0', null ]
+920 verbose cache add spec cache-loader@^4.1.0
+921 silly cache add parsed spec Result {
+921 silly cache add   raw: 'cache-loader@^4.1.0',
+921 silly cache add   scope: null,
+921 silly cache add   name: 'cache-loader',
+921 silly cache add   rawSpec: '^4.1.0',
+921 silly cache add   spec: '>=4.1.0 <5.0.0',
+921 silly cache add   type: 'range' }
+922 silly addNamed cache-loader@>=4.1.0 <5.0.0
+923 verbose addNamed ">=4.1.0 <5.0.0" is a valid semver range for cache-loader
+924 silly addNameRange { name: 'cache-loader', range: '>=4.1.0 <5.0.0', hasData: false }
+925 silly mapToRegistry name cache-loader
+926 silly mapToRegistry using default registry
+927 silly mapToRegistry registry https://registry.npmjs.org/
+928 silly mapToRegistry data Result {
+928 silly mapToRegistry   raw: 'cache-loader',
+928 silly mapToRegistry   scope: null,
+928 silly mapToRegistry   name: 'cache-loader',
+928 silly mapToRegistry   rawSpec: '',
+928 silly mapToRegistry   spec: 'latest',
+928 silly mapToRegistry   type: 'tag' }
+929 silly mapToRegistry uri https://registry.npmjs.org/cache-loader
+930 verbose addNameRange registry:https://registry.npmjs.org/cache-loader not in flight; fetching
+931 silly cache add args [ 'case-sensitive-paths-webpack-plugin@^2.3.0', null ]
+932 verbose cache add spec case-sensitive-paths-webpack-plugin@^2.3.0
+933 silly cache add parsed spec Result {
+933 silly cache add   raw: 'case-sensitive-paths-webpack-plugin@^2.3.0',
+933 silly cache add   scope: null,
+933 silly cache add   name: 'case-sensitive-paths-webpack-plugin',
+933 silly cache add   rawSpec: '^2.3.0',
+933 silly cache add   spec: '>=2.3.0 <3.0.0',
+933 silly cache add   type: 'range' }
+934 silly addNamed case-sensitive-paths-webpack-plugin@>=2.3.0 <3.0.0
+935 verbose addNamed ">=2.3.0 <3.0.0" is a valid semver range for case-sensitive-paths-webpack-plugin
+936 silly addNameRange { name: 'case-sensitive-paths-webpack-plugin',
+936 silly addNameRange   range: '>=2.3.0 <3.0.0',
+936 silly addNameRange   hasData: false }
+937 silly mapToRegistry name case-sensitive-paths-webpack-plugin
+938 silly mapToRegistry using default registry
+939 silly mapToRegistry registry https://registry.npmjs.org/
+940 silly mapToRegistry data Result {
+940 silly mapToRegistry   raw: 'case-sensitive-paths-webpack-plugin',
+940 silly mapToRegistry   scope: null,
+940 silly mapToRegistry   name: 'case-sensitive-paths-webpack-plugin',
+940 silly mapToRegistry   rawSpec: '',
+940 silly mapToRegistry   spec: 'latest',
+940 silly mapToRegistry   type: 'tag' }
+941 silly mapToRegistry uri https://registry.npmjs.org/case-sensitive-paths-webpack-plugin
+942 verbose addNameRange registry:https://registry.npmjs.org/case-sensitive-paths-webpack-plugin not in flight; fetching
+943 silly cache add args [ 'cli-highlight@^2.1.4', null ]
+944 verbose cache add spec cli-highlight@^2.1.4
+945 silly cache add parsed spec Result {
+945 silly cache add   raw: 'cli-highlight@^2.1.4',
+945 silly cache add   scope: null,
+945 silly cache add   name: 'cli-highlight',
+945 silly cache add   rawSpec: '^2.1.4',
+945 silly cache add   spec: '>=2.1.4 <3.0.0',
+945 silly cache add   type: 'range' }
+946 silly addNamed cli-highlight@>=2.1.4 <3.0.0
+947 verbose addNamed ">=2.1.4 <3.0.0" is a valid semver range for cli-highlight
+948 silly addNameRange { name: 'cli-highlight',
+948 silly addNameRange   range: '>=2.1.4 <3.0.0',
+948 silly addNameRange   hasData: false }
+949 silly mapToRegistry name cli-highlight
+950 silly mapToRegistry using default registry
+951 silly mapToRegistry registry https://registry.npmjs.org/
+952 silly mapToRegistry data Result {
+952 silly mapToRegistry   raw: 'cli-highlight',
+952 silly mapToRegistry   scope: null,
+952 silly mapToRegistry   name: 'cli-highlight',
+952 silly mapToRegistry   rawSpec: '',
+952 silly mapToRegistry   spec: 'latest',
+952 silly mapToRegistry   type: 'tag' }
+953 silly mapToRegistry uri https://registry.npmjs.org/cli-highlight
+954 verbose addNameRange registry:https://registry.npmjs.org/cli-highlight not in flight; fetching
+955 silly cache add args [ 'clipboardy@^2.3.0', null ]
+956 verbose cache add spec clipboardy@^2.3.0
+957 silly cache add parsed spec Result {
+957 silly cache add   raw: 'clipboardy@^2.3.0',
+957 silly cache add   scope: null,
+957 silly cache add   name: 'clipboardy',
+957 silly cache add   rawSpec: '^2.3.0',
+957 silly cache add   spec: '>=2.3.0 <3.0.0',
+957 silly cache add   type: 'range' }
+958 silly addNamed clipboardy@>=2.3.0 <3.0.0
+959 verbose addNamed ">=2.3.0 <3.0.0" is a valid semver range for clipboardy
+960 silly addNameRange { name: 'clipboardy', range: '>=2.3.0 <3.0.0', hasData: false }
+961 silly mapToRegistry name clipboardy
+962 silly mapToRegistry using default registry
+963 silly mapToRegistry registry https://registry.npmjs.org/
+964 silly mapToRegistry data Result {
+964 silly mapToRegistry   raw: 'clipboardy',
+964 silly mapToRegistry   scope: null,
+964 silly mapToRegistry   name: 'clipboardy',
+964 silly mapToRegistry   rawSpec: '',
+964 silly mapToRegistry   spec: 'latest',
+964 silly mapToRegistry   type: 'tag' }
+965 silly mapToRegistry uri https://registry.npmjs.org/clipboardy
+966 verbose addNameRange registry:https://registry.npmjs.org/clipboardy not in flight; fetching
+967 silly cache add args [ 'cliui@^6.0.0', null ]
+968 verbose cache add spec cliui@^6.0.0
+969 silly cache add parsed spec Result {
+969 silly cache add   raw: 'cliui@^6.0.0',
+969 silly cache add   scope: null,
+969 silly cache add   name: 'cliui',
+969 silly cache add   rawSpec: '^6.0.0',
+969 silly cache add   spec: '>=6.0.0 <7.0.0',
+969 silly cache add   type: 'range' }
+970 silly addNamed cliui@>=6.0.0 <7.0.0
+971 verbose addNamed ">=6.0.0 <7.0.0" is a valid semver range for cliui
+972 silly addNameRange { name: 'cliui', range: '>=6.0.0 <7.0.0', hasData: false }
+973 silly mapToRegistry name cliui
+974 silly mapToRegistry using default registry
+975 silly mapToRegistry registry https://registry.npmjs.org/
+976 silly mapToRegistry data Result {
+976 silly mapToRegistry   raw: 'cliui',
+976 silly mapToRegistry   scope: null,
+976 silly mapToRegistry   name: 'cliui',
+976 silly mapToRegistry   rawSpec: '',
+976 silly mapToRegistry   spec: 'latest',
+976 silly mapToRegistry   type: 'tag' }
+977 silly mapToRegistry uri https://registry.npmjs.org/cliui
+978 verbose addNameRange registry:https://registry.npmjs.org/cliui not in flight; fetching
+979 silly cache add args [ 'copy-webpack-plugin@^5.1.1', null ]
+980 verbose cache add spec copy-webpack-plugin@^5.1.1
+981 silly cache add parsed spec Result {
+981 silly cache add   raw: 'copy-webpack-plugin@^5.1.1',
+981 silly cache add   scope: null,
+981 silly cache add   name: 'copy-webpack-plugin',
+981 silly cache add   rawSpec: '^5.1.1',
+981 silly cache add   spec: '>=5.1.1 <6.0.0',
+981 silly cache add   type: 'range' }
+982 silly addNamed copy-webpack-plugin@>=5.1.1 <6.0.0
+983 verbose addNamed ">=5.1.1 <6.0.0" is a valid semver range for copy-webpack-plugin
+984 silly addNameRange { name: 'copy-webpack-plugin',
+984 silly addNameRange   range: '>=5.1.1 <6.0.0',
+984 silly addNameRange   hasData: false }
+985 silly mapToRegistry name copy-webpack-plugin
+986 silly mapToRegistry using default registry
+987 silly mapToRegistry registry https://registry.npmjs.org/
+988 silly mapToRegistry data Result {
+988 silly mapToRegistry   raw: 'copy-webpack-plugin',
+988 silly mapToRegistry   scope: null,
+988 silly mapToRegistry   name: 'copy-webpack-plugin',
+988 silly mapToRegistry   rawSpec: '',
+988 silly mapToRegistry   spec: 'latest',
+988 silly mapToRegistry   type: 'tag' }
+989 silly mapToRegistry uri https://registry.npmjs.org/copy-webpack-plugin
+990 verbose addNameRange registry:https://registry.npmjs.org/copy-webpack-plugin not in flight; fetching
+991 silly cache add args [ 'css-loader@^3.5.3', null ]
+992 verbose cache add spec css-loader@^3.5.3
+993 silly cache add parsed spec Result {
+993 silly cache add   raw: 'css-loader@^3.5.3',
+993 silly cache add   scope: null,
+993 silly cache add   name: 'css-loader',
+993 silly cache add   rawSpec: '^3.5.3',
+993 silly cache add   spec: '>=3.5.3 <4.0.0',
+993 silly cache add   type: 'range' }
+994 silly addNamed css-loader@>=3.5.3 <4.0.0
+995 verbose addNamed ">=3.5.3 <4.0.0" is a valid semver range for css-loader
+996 silly addNameRange { name: 'css-loader', range: '>=3.5.3 <4.0.0', hasData: false }
+997 silly mapToRegistry name css-loader
+998 silly mapToRegistry using default registry
+999 silly mapToRegistry registry https://registry.npmjs.org/
+1000 silly mapToRegistry data Result {
+1000 silly mapToRegistry   raw: 'css-loader',
+1000 silly mapToRegistry   scope: null,
+1000 silly mapToRegistry   name: 'css-loader',
+1000 silly mapToRegistry   rawSpec: '',
+1000 silly mapToRegistry   spec: 'latest',
+1000 silly mapToRegistry   type: 'tag' }
+1001 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+1002 verbose addNameRange registry:https://registry.npmjs.org/css-loader not in flight; fetching
+1003 silly cache add args [ 'cssnano@^4.1.10', null ]
+1004 verbose cache add spec cssnano@^4.1.10
+1005 silly cache add parsed spec Result {
+1005 silly cache add   raw: 'cssnano@^4.1.10',
+1005 silly cache add   scope: null,
+1005 silly cache add   name: 'cssnano',
+1005 silly cache add   rawSpec: '^4.1.10',
+1005 silly cache add   spec: '>=4.1.10 <5.0.0',
+1005 silly cache add   type: 'range' }
+1006 silly addNamed cssnano@>=4.1.10 <5.0.0
+1007 verbose addNamed ">=4.1.10 <5.0.0" is a valid semver range for cssnano
+1008 silly addNameRange { name: 'cssnano', range: '>=4.1.10 <5.0.0', hasData: false }
+1009 silly mapToRegistry name cssnano
+1010 silly mapToRegistry using default registry
+1011 silly mapToRegistry registry https://registry.npmjs.org/
+1012 silly mapToRegistry data Result {
+1012 silly mapToRegistry   raw: 'cssnano',
+1012 silly mapToRegistry   scope: null,
+1012 silly mapToRegistry   name: 'cssnano',
+1012 silly mapToRegistry   rawSpec: '',
+1012 silly mapToRegistry   spec: 'latest',
+1012 silly mapToRegistry   type: 'tag' }
+1013 silly mapToRegistry uri https://registry.npmjs.org/cssnano
+1014 verbose addNameRange registry:https://registry.npmjs.org/cssnano not in flight; fetching
+1015 verbose request uri https://registry.npmjs.org/@vue%2fweb-component-wrapper
+1016 verbose request no auth needed
+1017 info attempt registry request try #1 at 10:41:09 pm
+1018 verbose etag W/"34a201e1db7b64e8e8c3e2e1afa75111"
+1019 verbose lastModified Mon, 16 May 2022 18:40:07 GMT
+1020 http request GET https://registry.npmjs.org/@vue%2fweb-component-wrapper
+1021 silly cache add args [ 'debug@^4.1.1', null ]
+1022 verbose cache add spec debug@^4.1.1
+1023 silly cache add parsed spec Result {
+1023 silly cache add   raw: 'debug@^4.1.1',
+1023 silly cache add   scope: null,
+1023 silly cache add   name: 'debug',
+1023 silly cache add   rawSpec: '^4.1.1',
+1023 silly cache add   spec: '>=4.1.1 <5.0.0',
+1023 silly cache add   type: 'range' }
+1024 silly addNamed debug@>=4.1.1 <5.0.0
+1025 verbose addNamed ">=4.1.1 <5.0.0" is a valid semver range for debug
+1026 silly addNameRange { name: 'debug', range: '>=4.1.1 <5.0.0', hasData: false }
+1027 silly mapToRegistry name debug
+1028 silly mapToRegistry using default registry
+1029 silly mapToRegistry registry https://registry.npmjs.org/
+1030 silly mapToRegistry data Result {
+1030 silly mapToRegistry   raw: 'debug',
+1030 silly mapToRegistry   scope: null,
+1030 silly mapToRegistry   name: 'debug',
+1030 silly mapToRegistry   rawSpec: '',
+1030 silly mapToRegistry   spec: 'latest',
+1030 silly mapToRegistry   type: 'tag' }
+1031 silly mapToRegistry uri https://registry.npmjs.org/debug
+1032 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+1033 silly cache add args [ 'default-gateway@^5.0.5', null ]
+1034 verbose cache add spec default-gateway@^5.0.5
+1035 silly cache add parsed spec Result {
+1035 silly cache add   raw: 'default-gateway@^5.0.5',
+1035 silly cache add   scope: null,
+1035 silly cache add   name: 'default-gateway',
+1035 silly cache add   rawSpec: '^5.0.5',
+1035 silly cache add   spec: '>=5.0.5 <6.0.0',
+1035 silly cache add   type: 'range' }
+1036 silly addNamed default-gateway@>=5.0.5 <6.0.0
+1037 verbose addNamed ">=5.0.5 <6.0.0" is a valid semver range for default-gateway
+1038 silly addNameRange { name: 'default-gateway',
+1038 silly addNameRange   range: '>=5.0.5 <6.0.0',
+1038 silly addNameRange   hasData: false }
+1039 silly mapToRegistry name default-gateway
+1040 silly mapToRegistry using default registry
+1041 silly mapToRegistry registry https://registry.npmjs.org/
+1042 silly mapToRegistry data Result {
+1042 silly mapToRegistry   raw: 'default-gateway',
+1042 silly mapToRegistry   scope: null,
+1042 silly mapToRegistry   name: 'default-gateway',
+1042 silly mapToRegistry   rawSpec: '',
+1042 silly mapToRegistry   spec: 'latest',
+1042 silly mapToRegistry   type: 'tag' }
+1043 silly mapToRegistry uri https://registry.npmjs.org/default-gateway
+1044 verbose addNameRange registry:https://registry.npmjs.org/default-gateway not in flight; fetching
+1045 verbose request uri https://registry.npmjs.org/@vue%2fpreload-webpack-plugin
+1046 verbose request no auth needed
+1047 info attempt registry request try #1 at 10:41:09 pm
+1048 verbose etag W/"020b076e7c457b31a814999c68db6a1c"
+1049 verbose lastModified Thu, 07 Apr 2022 11:30:09 GMT
+1050 http request GET https://registry.npmjs.org/@vue%2fpreload-webpack-plugin
+1051 silly cache add args [ 'dotenv@^8.2.0', null ]
+1052 verbose cache add spec dotenv@^8.2.0
+1053 silly cache add parsed spec Result {
+1053 silly cache add   raw: 'dotenv@^8.2.0',
+1053 silly cache add   scope: null,
+1053 silly cache add   name: 'dotenv',
+1053 silly cache add   rawSpec: '^8.2.0',
+1053 silly cache add   spec: '>=8.2.0 <9.0.0',
+1053 silly cache add   type: 'range' }
+1054 silly addNamed dotenv@>=8.2.0 <9.0.0
+1055 verbose addNamed ">=8.2.0 <9.0.0" is a valid semver range for dotenv
+1056 silly addNameRange { name: 'dotenv', range: '>=8.2.0 <9.0.0', hasData: false }
+1057 silly mapToRegistry name dotenv
+1058 silly mapToRegistry using default registry
+1059 silly mapToRegistry registry https://registry.npmjs.org/
+1060 silly mapToRegistry data Result {
+1060 silly mapToRegistry   raw: 'dotenv',
+1060 silly mapToRegistry   scope: null,
+1060 silly mapToRegistry   name: 'dotenv',
+1060 silly mapToRegistry   rawSpec: '',
+1060 silly mapToRegistry   spec: 'latest',
+1060 silly mapToRegistry   type: 'tag' }
+1061 silly mapToRegistry uri https://registry.npmjs.org/dotenv
+1062 verbose addNameRange registry:https://registry.npmjs.org/dotenv not in flight; fetching
+1063 silly cache add args [ 'dotenv-expand@^5.1.0', null ]
+1064 verbose cache add spec dotenv-expand@^5.1.0
+1065 silly cache add parsed spec Result {
+1065 silly cache add   raw: 'dotenv-expand@^5.1.0',
+1065 silly cache add   scope: null,
+1065 silly cache add   name: 'dotenv-expand',
+1065 silly cache add   rawSpec: '^5.1.0',
+1065 silly cache add   spec: '>=5.1.0 <6.0.0',
+1065 silly cache add   type: 'range' }
+1066 silly addNamed dotenv-expand@>=5.1.0 <6.0.0
+1067 verbose addNamed ">=5.1.0 <6.0.0" is a valid semver range for dotenv-expand
+1068 silly addNameRange { name: 'dotenv-expand',
+1068 silly addNameRange   range: '>=5.1.0 <6.0.0',
+1068 silly addNameRange   hasData: false }
+1069 silly mapToRegistry name dotenv-expand
+1070 silly mapToRegistry using default registry
+1071 silly mapToRegistry registry https://registry.npmjs.org/
+1072 silly mapToRegistry data Result {
+1072 silly mapToRegistry   raw: 'dotenv-expand',
+1072 silly mapToRegistry   scope: null,
+1072 silly mapToRegistry   name: 'dotenv-expand',
+1072 silly mapToRegistry   rawSpec: '',
+1072 silly mapToRegistry   spec: 'latest',
+1072 silly mapToRegistry   type: 'tag' }
+1073 silly mapToRegistry uri https://registry.npmjs.org/dotenv-expand
+1074 verbose addNameRange registry:https://registry.npmjs.org/dotenv-expand not in flight; fetching
+1075 silly cache add args [ 'file-loader@^4.2.0', null ]
+1076 verbose cache add spec file-loader@^4.2.0
+1077 silly cache add parsed spec Result {
+1077 silly cache add   raw: 'file-loader@^4.2.0',
+1077 silly cache add   scope: null,
+1077 silly cache add   name: 'file-loader',
+1077 silly cache add   rawSpec: '^4.2.0',
+1077 silly cache add   spec: '>=4.2.0 <5.0.0',
+1077 silly cache add   type: 'range' }
+1078 silly addNamed file-loader@>=4.2.0 <5.0.0
+1079 verbose addNamed ">=4.2.0 <5.0.0" is a valid semver range for file-loader
+1080 silly addNameRange { name: 'file-loader', range: '>=4.2.0 <5.0.0', hasData: false }
+1081 silly mapToRegistry name file-loader
+1082 silly mapToRegistry using default registry
+1083 silly mapToRegistry registry https://registry.npmjs.org/
+1084 silly mapToRegistry data Result {
+1084 silly mapToRegistry   raw: 'file-loader',
+1084 silly mapToRegistry   scope: null,
+1084 silly mapToRegistry   name: 'file-loader',
+1084 silly mapToRegistry   rawSpec: '',
+1084 silly mapToRegistry   spec: 'latest',
+1084 silly mapToRegistry   type: 'tag' }
+1085 silly mapToRegistry uri https://registry.npmjs.org/file-loader
+1086 verbose addNameRange registry:https://registry.npmjs.org/file-loader not in flight; fetching
+1087 silly cache add args [ 'fs-extra@^7.0.1', null ]
+1088 verbose cache add spec fs-extra@^7.0.1
+1089 silly cache add parsed spec Result {
+1089 silly cache add   raw: 'fs-extra@^7.0.1',
+1089 silly cache add   scope: null,
+1089 silly cache add   name: 'fs-extra',
+1089 silly cache add   rawSpec: '^7.0.1',
+1089 silly cache add   spec: '>=7.0.1 <8.0.0',
+1089 silly cache add   type: 'range' }
+1090 silly addNamed fs-extra@>=7.0.1 <8.0.0
+1091 verbose addNamed ">=7.0.1 <8.0.0" is a valid semver range for fs-extra
+1092 silly addNameRange { name: 'fs-extra', range: '>=7.0.1 <8.0.0', hasData: false }
+1093 silly mapToRegistry name fs-extra
+1094 silly mapToRegistry using default registry
+1095 silly mapToRegistry registry https://registry.npmjs.org/
+1096 silly mapToRegistry data Result {
+1096 silly mapToRegistry   raw: 'fs-extra',
+1096 silly mapToRegistry   scope: null,
+1096 silly mapToRegistry   name: 'fs-extra',
+1096 silly mapToRegistry   rawSpec: '',
+1096 silly mapToRegistry   spec: 'latest',
+1096 silly mapToRegistry   type: 'tag' }
+1097 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+1098 verbose addNameRange registry:https://registry.npmjs.org/fs-extra not in flight; fetching
+1099 verbose request uri https://registry.npmjs.org/address
+1100 verbose request no auth needed
+1101 info attempt registry request try #1 at 10:41:09 pm
+1102 verbose etag W/"6d0412b599b8e5209067b8cfe3cf95a7"
+1103 verbose lastModified Tue, 13 Sep 2022 01:09:50 GMT
+1104 http request GET https://registry.npmjs.org/address
+1105 silly cache add args [ 'globby@^9.2.0', null ]
+1106 verbose cache add spec globby@^9.2.0
+1107 silly cache add parsed spec Result {
+1107 silly cache add   raw: 'globby@^9.2.0',
+1107 silly cache add   scope: null,
+1107 silly cache add   name: 'globby',
+1107 silly cache add   rawSpec: '^9.2.0',
+1107 silly cache add   spec: '>=9.2.0 <10.0.0',
+1107 silly cache add   type: 'range' }
+1108 silly addNamed globby@>=9.2.0 <10.0.0
+1109 verbose addNamed ">=9.2.0 <10.0.0" is a valid semver range for globby
+1110 silly addNameRange { name: 'globby', range: '>=9.2.0 <10.0.0', hasData: false }
+1111 silly mapToRegistry name globby
+1112 silly mapToRegistry using default registry
+1113 silly mapToRegistry registry https://registry.npmjs.org/
+1114 silly mapToRegistry data Result {
+1114 silly mapToRegistry   raw: 'globby',
+1114 silly mapToRegistry   scope: null,
+1114 silly mapToRegistry   name: 'globby',
+1114 silly mapToRegistry   rawSpec: '',
+1114 silly mapToRegistry   spec: 'latest',
+1114 silly mapToRegistry   type: 'tag' }
+1115 silly mapToRegistry uri https://registry.npmjs.org/globby
+1116 verbose addNameRange registry:https://registry.npmjs.org/globby already in flight; waiting
+1117 silly cache add args [ 'hash-sum@^2.0.0', null ]
+1118 verbose cache add spec hash-sum@^2.0.0
+1119 silly cache add parsed spec Result {
+1119 silly cache add   raw: 'hash-sum@^2.0.0',
+1119 silly cache add   scope: null,
+1119 silly cache add   name: 'hash-sum',
+1119 silly cache add   rawSpec: '^2.0.0',
+1119 silly cache add   spec: '>=2.0.0 <3.0.0',
+1119 silly cache add   type: 'range' }
+1120 silly addNamed hash-sum@>=2.0.0 <3.0.0
+1121 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for hash-sum
+1122 silly addNameRange { name: 'hash-sum', range: '>=2.0.0 <3.0.0', hasData: false }
+1123 silly mapToRegistry name hash-sum
+1124 silly mapToRegistry using default registry
+1125 silly mapToRegistry registry https://registry.npmjs.org/
+1126 silly mapToRegistry data Result {
+1126 silly mapToRegistry   raw: 'hash-sum',
+1126 silly mapToRegistry   scope: null,
+1126 silly mapToRegistry   name: 'hash-sum',
+1126 silly mapToRegistry   rawSpec: '',
+1126 silly mapToRegistry   spec: 'latest',
+1126 silly mapToRegistry   type: 'tag' }
+1127 silly mapToRegistry uri https://registry.npmjs.org/hash-sum
+1128 verbose addNameRange registry:https://registry.npmjs.org/hash-sum not in flight; fetching
+1129 silly cache add args [ 'html-webpack-plugin@^3.2.0', null ]
+1130 verbose cache add spec html-webpack-plugin@^3.2.0
+1131 silly cache add parsed spec Result {
+1131 silly cache add   raw: 'html-webpack-plugin@^3.2.0',
+1131 silly cache add   scope: null,
+1131 silly cache add   name: 'html-webpack-plugin',
+1131 silly cache add   rawSpec: '^3.2.0',
+1131 silly cache add   spec: '>=3.2.0 <4.0.0',
+1131 silly cache add   type: 'range' }
+1132 silly addNamed html-webpack-plugin@>=3.2.0 <4.0.0
+1133 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for html-webpack-plugin
+1134 silly addNameRange { name: 'html-webpack-plugin',
+1134 silly addNameRange   range: '>=3.2.0 <4.0.0',
+1134 silly addNameRange   hasData: false }
+1135 silly mapToRegistry name html-webpack-plugin
+1136 silly mapToRegistry using default registry
+1137 silly mapToRegistry registry https://registry.npmjs.org/
+1138 silly mapToRegistry data Result {
+1138 silly mapToRegistry   raw: 'html-webpack-plugin',
+1138 silly mapToRegistry   scope: null,
+1138 silly mapToRegistry   name: 'html-webpack-plugin',
+1138 silly mapToRegistry   rawSpec: '',
+1138 silly mapToRegistry   spec: 'latest',
+1138 silly mapToRegistry   type: 'tag' }
+1139 silly mapToRegistry uri https://registry.npmjs.org/html-webpack-plugin
+1140 verbose addNameRange registry:https://registry.npmjs.org/html-webpack-plugin not in flight; fetching
+1141 silly cache add args [ 'launch-editor-middleware@^2.2.1', null ]
+1142 verbose cache add spec launch-editor-middleware@^2.2.1
+1143 silly cache add parsed spec Result {
+1143 silly cache add   raw: 'launch-editor-middleware@^2.2.1',
+1143 silly cache add   scope: null,
+1143 silly cache add   name: 'launch-editor-middleware',
+1143 silly cache add   rawSpec: '^2.2.1',
+1143 silly cache add   spec: '>=2.2.1 <3.0.0',
+1143 silly cache add   type: 'range' }
+1144 silly addNamed launch-editor-middleware@>=2.2.1 <3.0.0
+1145 verbose addNamed ">=2.2.1 <3.0.0" is a valid semver range for launch-editor-middleware
+1146 silly addNameRange { name: 'launch-editor-middleware',
+1146 silly addNameRange   range: '>=2.2.1 <3.0.0',
+1146 silly addNameRange   hasData: false }
+1147 silly mapToRegistry name launch-editor-middleware
+1148 silly mapToRegistry using default registry
+1149 silly mapToRegistry registry https://registry.npmjs.org/
+1150 silly mapToRegistry data Result {
+1150 silly mapToRegistry   raw: 'launch-editor-middleware',
+1150 silly mapToRegistry   scope: null,
+1150 silly mapToRegistry   name: 'launch-editor-middleware',
+1150 silly mapToRegistry   rawSpec: '',
+1150 silly mapToRegistry   spec: 'latest',
+1150 silly mapToRegistry   type: 'tag' }
+1151 silly mapToRegistry uri https://registry.npmjs.org/launch-editor-middleware
+1152 verbose addNameRange registry:https://registry.npmjs.org/launch-editor-middleware not in flight; fetching
+1153 silly cache add args [ 'lodash.defaultsdeep@^4.6.1', null ]
+1154 verbose cache add spec lodash.defaultsdeep@^4.6.1
+1155 silly cache add parsed spec Result {
+1155 silly cache add   raw: 'lodash.defaultsdeep@^4.6.1',
+1155 silly cache add   scope: null,
+1155 silly cache add   name: 'lodash.defaultsdeep',
+1155 silly cache add   rawSpec: '^4.6.1',
+1155 silly cache add   spec: '>=4.6.1 <5.0.0',
+1155 silly cache add   type: 'range' }
+1156 silly addNamed lodash.defaultsdeep@>=4.6.1 <5.0.0
+1157 verbose addNamed ">=4.6.1 <5.0.0" is a valid semver range for lodash.defaultsdeep
+1158 silly addNameRange { name: 'lodash.defaultsdeep',
+1158 silly addNameRange   range: '>=4.6.1 <5.0.0',
+1158 silly addNameRange   hasData: false }
+1159 silly mapToRegistry name lodash.defaultsdeep
+1160 silly mapToRegistry using default registry
+1161 silly mapToRegistry registry https://registry.npmjs.org/
+1162 silly mapToRegistry data Result {
+1162 silly mapToRegistry   raw: 'lodash.defaultsdeep',
+1162 silly mapToRegistry   scope: null,
+1162 silly mapToRegistry   name: 'lodash.defaultsdeep',
+1162 silly mapToRegistry   rawSpec: '',
+1162 silly mapToRegistry   spec: 'latest',
+1162 silly mapToRegistry   type: 'tag' }
+1163 silly mapToRegistry uri https://registry.npmjs.org/lodash.defaultsdeep
+1164 verbose addNameRange registry:https://registry.npmjs.org/lodash.defaultsdeep not in flight; fetching
+1165 verbose request uri https://registry.npmjs.org/acorn-walk
+1166 verbose request no auth needed
+1167 info attempt registry request try #1 at 10:41:09 pm
+1168 verbose etag W/"367b5a40ed4641885288aef5f8badfb5"
+1169 verbose lastModified Mon, 11 Apr 2022 12:32:53 GMT
+1170 http request GET https://registry.npmjs.org/acorn-walk
+1171 verbose request uri https://registry.npmjs.org/case-sensitive-paths-webpack-plugin
+1172 verbose request no auth needed
+1173 info attempt registry request try #1 at 10:41:09 pm
+1174 verbose etag W/"2de03ca15044854c4d3c0473bb33deb5"
+1175 verbose lastModified Mon, 13 Jun 2022 05:38:50 GMT
+1176 http request GET https://registry.npmjs.org/case-sensitive-paths-webpack-plugin
+1177 silly cache add args [ 'lodash.mapvalues@^4.6.0', null ]
+1178 verbose cache add spec lodash.mapvalues@^4.6.0
+1179 silly cache add parsed spec Result {
+1179 silly cache add   raw: 'lodash.mapvalues@^4.6.0',
+1179 silly cache add   scope: null,
+1179 silly cache add   name: 'lodash.mapvalues',
+1179 silly cache add   rawSpec: '^4.6.0',
+1179 silly cache add   spec: '>=4.6.0 <5.0.0',
+1179 silly cache add   type: 'range' }
+1180 silly addNamed lodash.mapvalues@>=4.6.0 <5.0.0
+1181 verbose addNamed ">=4.6.0 <5.0.0" is a valid semver range for lodash.mapvalues
+1182 silly addNameRange { name: 'lodash.mapvalues',
+1182 silly addNameRange   range: '>=4.6.0 <5.0.0',
+1182 silly addNameRange   hasData: false }
+1183 silly mapToRegistry name lodash.mapvalues
+1184 silly mapToRegistry using default registry
+1185 silly mapToRegistry registry https://registry.npmjs.org/
+1186 silly mapToRegistry data Result {
+1186 silly mapToRegistry   raw: 'lodash.mapvalues',
+1186 silly mapToRegistry   scope: null,
+1186 silly mapToRegistry   name: 'lodash.mapvalues',
+1186 silly mapToRegistry   rawSpec: '',
+1186 silly mapToRegistry   spec: 'latest',
+1186 silly mapToRegistry   type: 'tag' }
+1187 silly mapToRegistry uri https://registry.npmjs.org/lodash.mapvalues
+1188 verbose addNameRange registry:https://registry.npmjs.org/lodash.mapvalues not in flight; fetching
+1189 silly cache add args [ 'lodash.transform@^4.6.0', null ]
+1190 verbose cache add spec lodash.transform@^4.6.0
+1191 silly cache add parsed spec Result {
+1191 silly cache add   raw: 'lodash.transform@^4.6.0',
+1191 silly cache add   scope: null,
+1191 silly cache add   name: 'lodash.transform',
+1191 silly cache add   rawSpec: '^4.6.0',
+1191 silly cache add   spec: '>=4.6.0 <5.0.0',
+1191 silly cache add   type: 'range' }
+1192 silly addNamed lodash.transform@>=4.6.0 <5.0.0
+1193 verbose addNamed ">=4.6.0 <5.0.0" is a valid semver range for lodash.transform
+1194 silly addNameRange { name: 'lodash.transform',
+1194 silly addNameRange   range: '>=4.6.0 <5.0.0',
+1194 silly addNameRange   hasData: false }
+1195 silly mapToRegistry name lodash.transform
+1196 silly mapToRegistry using default registry
+1197 silly mapToRegistry registry https://registry.npmjs.org/
+1198 silly mapToRegistry data Result {
+1198 silly mapToRegistry   raw: 'lodash.transform',
+1198 silly mapToRegistry   scope: null,
+1198 silly mapToRegistry   name: 'lodash.transform',
+1198 silly mapToRegistry   rawSpec: '',
+1198 silly mapToRegistry   spec: 'latest',
+1198 silly mapToRegistry   type: 'tag' }
+1199 silly mapToRegistry uri https://registry.npmjs.org/lodash.transform
+1200 verbose addNameRange registry:https://registry.npmjs.org/lodash.transform not in flight; fetching
+1201 silly cache add args [ 'mini-css-extract-plugin@^0.9.0', null ]
+1202 verbose cache add spec mini-css-extract-plugin@^0.9.0
+1203 silly cache add parsed spec Result {
+1203 silly cache add   raw: 'mini-css-extract-plugin@^0.9.0',
+1203 silly cache add   scope: null,
+1203 silly cache add   name: 'mini-css-extract-plugin',
+1203 silly cache add   rawSpec: '^0.9.0',
+1203 silly cache add   spec: '>=0.9.0 <0.10.0',
+1203 silly cache add   type: 'range' }
+1204 silly addNamed mini-css-extract-plugin@>=0.9.0 <0.10.0
+1205 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for mini-css-extract-plugin
+1206 silly addNameRange { name: 'mini-css-extract-plugin',
+1206 silly addNameRange   range: '>=0.9.0 <0.10.0',
+1206 silly addNameRange   hasData: false }
+1207 silly mapToRegistry name mini-css-extract-plugin
+1208 silly mapToRegistry using default registry
+1209 silly mapToRegistry registry https://registry.npmjs.org/
+1210 silly mapToRegistry data Result {
+1210 silly mapToRegistry   raw: 'mini-css-extract-plugin',
+1210 silly mapToRegistry   scope: null,
+1210 silly mapToRegistry   name: 'mini-css-extract-plugin',
+1210 silly mapToRegistry   rawSpec: '',
+1210 silly mapToRegistry   spec: 'latest',
+1210 silly mapToRegistry   type: 'tag' }
+1211 silly mapToRegistry uri https://registry.npmjs.org/mini-css-extract-plugin
+1212 verbose addNameRange registry:https://registry.npmjs.org/mini-css-extract-plugin not in flight; fetching
+1213 silly cache add args [ 'minimist@^1.2.5', null ]
+1214 verbose cache add spec minimist@^1.2.5
+1215 silly cache add parsed spec Result {
+1215 silly cache add   raw: 'minimist@^1.2.5',
+1215 silly cache add   scope: null,
+1215 silly cache add   name: 'minimist',
+1215 silly cache add   rawSpec: '^1.2.5',
+1215 silly cache add   spec: '>=1.2.5 <2.0.0',
+1215 silly cache add   type: 'range' }
+1216 silly addNamed minimist@>=1.2.5 <2.0.0
+1217 verbose addNamed ">=1.2.5 <2.0.0" is a valid semver range for minimist
+1218 silly addNameRange { name: 'minimist', range: '>=1.2.5 <2.0.0', hasData: false }
+1219 silly mapToRegistry name minimist
+1220 silly mapToRegistry using default registry
+1221 silly mapToRegistry registry https://registry.npmjs.org/
+1222 silly mapToRegistry data Result {
+1222 silly mapToRegistry   raw: 'minimist',
+1222 silly mapToRegistry   scope: null,
+1222 silly mapToRegistry   name: 'minimist',
+1222 silly mapToRegistry   rawSpec: '',
+1222 silly mapToRegistry   spec: 'latest',
+1222 silly mapToRegistry   type: 'tag' }
+1223 silly mapToRegistry uri https://registry.npmjs.org/minimist
+1224 verbose addNameRange registry:https://registry.npmjs.org/minimist not in flight; fetching
+1225 silly cache add args [ 'pnp-webpack-plugin@^1.6.4', null ]
+1226 verbose cache add spec pnp-webpack-plugin@^1.6.4
+1227 silly cache add parsed spec Result {
+1227 silly cache add   raw: 'pnp-webpack-plugin@^1.6.4',
+1227 silly cache add   scope: null,
+1227 silly cache add   name: 'pnp-webpack-plugin',
+1227 silly cache add   rawSpec: '^1.6.4',
+1227 silly cache add   spec: '>=1.6.4 <2.0.0',
+1227 silly cache add   type: 'range' }
+1228 silly addNamed pnp-webpack-plugin@>=1.6.4 <2.0.0
+1229 verbose addNamed ">=1.6.4 <2.0.0" is a valid semver range for pnp-webpack-plugin
+1230 silly addNameRange { name: 'pnp-webpack-plugin',
+1230 silly addNameRange   range: '>=1.6.4 <2.0.0',
+1230 silly addNameRange   hasData: false }
+1231 silly mapToRegistry name pnp-webpack-plugin
+1232 silly mapToRegistry using default registry
+1233 silly mapToRegistry registry https://registry.npmjs.org/
+1234 silly mapToRegistry data Result {
+1234 silly mapToRegistry   raw: 'pnp-webpack-plugin',
+1234 silly mapToRegistry   scope: null,
+1234 silly mapToRegistry   name: 'pnp-webpack-plugin',
+1234 silly mapToRegistry   rawSpec: '',
+1234 silly mapToRegistry   spec: 'latest',
+1234 silly mapToRegistry   type: 'tag' }
+1235 silly mapToRegistry uri https://registry.npmjs.org/pnp-webpack-plugin
+1236 verbose addNameRange registry:https://registry.npmjs.org/pnp-webpack-plugin not in flight; fetching
+1237 silly cache add args [ 'portfinder@^1.0.26', null ]
+1238 verbose cache add spec portfinder@^1.0.26
+1239 silly cache add parsed spec Result {
+1239 silly cache add   raw: 'portfinder@^1.0.26',
+1239 silly cache add   scope: null,
+1239 silly cache add   name: 'portfinder',
+1239 silly cache add   rawSpec: '^1.0.26',
+1239 silly cache add   spec: '>=1.0.26 <2.0.0',
+1239 silly cache add   type: 'range' }
+1240 silly addNamed portfinder@>=1.0.26 <2.0.0
+1241 verbose addNamed ">=1.0.26 <2.0.0" is a valid semver range for portfinder
+1242 silly addNameRange { name: 'portfinder', range: '>=1.0.26 <2.0.0', hasData: false }
+1243 silly mapToRegistry name portfinder
+1244 silly mapToRegistry using default registry
+1245 silly mapToRegistry registry https://registry.npmjs.org/
+1246 silly mapToRegistry data Result {
+1246 silly mapToRegistry   raw: 'portfinder',
+1246 silly mapToRegistry   scope: null,
+1246 silly mapToRegistry   name: 'portfinder',
+1246 silly mapToRegistry   rawSpec: '',
+1246 silly mapToRegistry   spec: 'latest',
+1246 silly mapToRegistry   type: 'tag' }
+1247 silly mapToRegistry uri https://registry.npmjs.org/portfinder
+1248 verbose addNameRange registry:https://registry.npmjs.org/portfinder not in flight; fetching
+1249 silly cache add args [ 'postcss-loader@^3.0.0', null ]
+1250 verbose cache add spec postcss-loader@^3.0.0
+1251 silly cache add parsed spec Result {
+1251 silly cache add   raw: 'postcss-loader@^3.0.0',
+1251 silly cache add   scope: null,
+1251 silly cache add   name: 'postcss-loader',
+1251 silly cache add   rawSpec: '^3.0.0',
+1251 silly cache add   spec: '>=3.0.0 <4.0.0',
+1251 silly cache add   type: 'range' }
+1252 silly addNamed postcss-loader@>=3.0.0 <4.0.0
+1253 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for postcss-loader
+1254 silly addNameRange { name: 'postcss-loader',
+1254 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1254 silly addNameRange   hasData: false }
+1255 silly mapToRegistry name postcss-loader
+1256 silly mapToRegistry using default registry
+1257 silly mapToRegistry registry https://registry.npmjs.org/
+1258 silly mapToRegistry data Result {
+1258 silly mapToRegistry   raw: 'postcss-loader',
+1258 silly mapToRegistry   scope: null,
+1258 silly mapToRegistry   name: 'postcss-loader',
+1258 silly mapToRegistry   rawSpec: '',
+1258 silly mapToRegistry   spec: 'latest',
+1258 silly mapToRegistry   type: 'tag' }
+1259 silly mapToRegistry uri https://registry.npmjs.org/postcss-loader
+1260 verbose addNameRange registry:https://registry.npmjs.org/postcss-loader not in flight; fetching
+1261 silly cache add args [ 'ssri@^8.0.1', null ]
+1262 verbose cache add spec ssri@^8.0.1
+1263 silly cache add parsed spec Result {
+1263 silly cache add   raw: 'ssri@^8.0.1',
+1263 silly cache add   scope: null,
+1263 silly cache add   name: 'ssri',
+1263 silly cache add   rawSpec: '^8.0.1',
+1263 silly cache add   spec: '>=8.0.1 <9.0.0',
+1263 silly cache add   type: 'range' }
+1264 silly addNamed ssri@>=8.0.1 <9.0.0
+1265 verbose addNamed ">=8.0.1 <9.0.0" is a valid semver range for ssri
+1266 silly addNameRange { name: 'ssri', range: '>=8.0.1 <9.0.0', hasData: false }
+1267 silly mapToRegistry name ssri
+1268 silly mapToRegistry using default registry
+1269 silly mapToRegistry registry https://registry.npmjs.org/
+1270 silly mapToRegistry data Result {
+1270 silly mapToRegistry   raw: 'ssri',
+1270 silly mapToRegistry   scope: null,
+1270 silly mapToRegistry   name: 'ssri',
+1270 silly mapToRegistry   rawSpec: '',
+1270 silly mapToRegistry   spec: 'latest',
+1270 silly mapToRegistry   type: 'tag' }
+1271 silly mapToRegistry uri https://registry.npmjs.org/ssri
+1272 verbose addNameRange registry:https://registry.npmjs.org/ssri not in flight; fetching
+1273 silly cache add args [ 'terser-webpack-plugin@^1.4.4', null ]
+1274 verbose cache add spec terser-webpack-plugin@^1.4.4
+1275 silly cache add parsed spec Result {
+1275 silly cache add   raw: 'terser-webpack-plugin@^1.4.4',
+1275 silly cache add   scope: null,
+1275 silly cache add   name: 'terser-webpack-plugin',
+1275 silly cache add   rawSpec: '^1.4.4',
+1275 silly cache add   spec: '>=1.4.4 <2.0.0',
+1275 silly cache add   type: 'range' }
+1276 silly addNamed terser-webpack-plugin@>=1.4.4 <2.0.0
+1277 verbose addNamed ">=1.4.4 <2.0.0" is a valid semver range for terser-webpack-plugin
+1278 silly addNameRange { name: 'terser-webpack-plugin',
+1278 silly addNameRange   range: '>=1.4.4 <2.0.0',
+1278 silly addNameRange   hasData: false }
+1279 silly mapToRegistry name terser-webpack-plugin
+1280 silly mapToRegistry using default registry
+1281 silly mapToRegistry registry https://registry.npmjs.org/
+1282 silly mapToRegistry data Result {
+1282 silly mapToRegistry   raw: 'terser-webpack-plugin',
+1282 silly mapToRegistry   scope: null,
+1282 silly mapToRegistry   name: 'terser-webpack-plugin',
+1282 silly mapToRegistry   rawSpec: '',
+1282 silly mapToRegistry   spec: 'latest',
+1282 silly mapToRegistry   type: 'tag' }
+1283 silly mapToRegistry uri https://registry.npmjs.org/terser-webpack-plugin
+1284 verbose addNameRange registry:https://registry.npmjs.org/terser-webpack-plugin not in flight; fetching
+1285 silly cache add args [ 'thread-loader@^2.1.3', null ]
+1286 verbose cache add spec thread-loader@^2.1.3
+1287 silly cache add parsed spec Result {
+1287 silly cache add   raw: 'thread-loader@^2.1.3',
+1287 silly cache add   scope: null,
+1287 silly cache add   name: 'thread-loader',
+1287 silly cache add   rawSpec: '^2.1.3',
+1287 silly cache add   spec: '>=2.1.3 <3.0.0',
+1287 silly cache add   type: 'range' }
+1288 silly addNamed thread-loader@>=2.1.3 <3.0.0
+1289 verbose addNamed ">=2.1.3 <3.0.0" is a valid semver range for thread-loader
+1290 silly addNameRange { name: 'thread-loader',
+1290 silly addNameRange   range: '>=2.1.3 <3.0.0',
+1290 silly addNameRange   hasData: false }
+1291 silly mapToRegistry name thread-loader
+1292 silly mapToRegistry using default registry
+1293 silly mapToRegistry registry https://registry.npmjs.org/
+1294 silly mapToRegistry data Result {
+1294 silly mapToRegistry   raw: 'thread-loader',
+1294 silly mapToRegistry   scope: null,
+1294 silly mapToRegistry   name: 'thread-loader',
+1294 silly mapToRegistry   rawSpec: '',
+1294 silly mapToRegistry   spec: 'latest',
+1294 silly mapToRegistry   type: 'tag' }
+1295 silly mapToRegistry uri https://registry.npmjs.org/thread-loader
+1296 verbose addNameRange registry:https://registry.npmjs.org/thread-loader already in flight; waiting
+1297 silly cache add args [ 'url-loader@^2.2.0', null ]
+1298 verbose cache add spec url-loader@^2.2.0
+1299 silly cache add parsed spec Result {
+1299 silly cache add   raw: 'url-loader@^2.2.0',
+1299 silly cache add   scope: null,
+1299 silly cache add   name: 'url-loader',
+1299 silly cache add   rawSpec: '^2.2.0',
+1299 silly cache add   spec: '>=2.2.0 <3.0.0',
+1299 silly cache add   type: 'range' }
+1300 silly addNamed url-loader@>=2.2.0 <3.0.0
+1301 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for url-loader
+1302 silly addNameRange { name: 'url-loader', range: '>=2.2.0 <3.0.0', hasData: false }
+1303 silly mapToRegistry name url-loader
+1304 silly mapToRegistry using default registry
+1305 silly mapToRegistry registry https://registry.npmjs.org/
+1306 silly mapToRegistry data Result {
+1306 silly mapToRegistry   raw: 'url-loader',
+1306 silly mapToRegistry   scope: null,
+1306 silly mapToRegistry   name: 'url-loader',
+1306 silly mapToRegistry   rawSpec: '',
+1306 silly mapToRegistry   spec: 'latest',
+1306 silly mapToRegistry   type: 'tag' }
+1307 silly mapToRegistry uri https://registry.npmjs.org/url-loader
+1308 verbose addNameRange registry:https://registry.npmjs.org/url-loader not in flight; fetching
+1309 silly cache add args [ 'vue-loader@^15.9.2', null ]
+1310 verbose cache add spec vue-loader@^15.9.2
+1311 silly cache add parsed spec Result {
+1311 silly cache add   raw: 'vue-loader@^15.9.2',
+1311 silly cache add   scope: null,
+1311 silly cache add   name: 'vue-loader',
+1311 silly cache add   rawSpec: '^15.9.2',
+1311 silly cache add   spec: '>=15.9.2 <16.0.0',
+1311 silly cache add   type: 'range' }
+1312 silly addNamed vue-loader@>=15.9.2 <16.0.0
+1313 verbose addNamed ">=15.9.2 <16.0.0" is a valid semver range for vue-loader
+1314 silly addNameRange { name: 'vue-loader', range: '>=15.9.2 <16.0.0', hasData: false }
+1315 silly mapToRegistry name vue-loader
+1316 silly mapToRegistry using default registry
+1317 silly mapToRegistry registry https://registry.npmjs.org/
+1318 silly mapToRegistry data Result {
+1318 silly mapToRegistry   raw: 'vue-loader',
+1318 silly mapToRegistry   scope: null,
+1318 silly mapToRegistry   name: 'vue-loader',
+1318 silly mapToRegistry   rawSpec: '',
+1318 silly mapToRegistry   spec: 'latest',
+1318 silly mapToRegistry   type: 'tag' }
+1319 silly mapToRegistry uri https://registry.npmjs.org/vue-loader
+1320 verbose addNameRange registry:https://registry.npmjs.org/vue-loader not in flight; fetching
+1321 silly cache add args [ 'vue-style-loader@^4.1.2', null ]
+1322 verbose cache add spec vue-style-loader@^4.1.2
+1323 silly cache add parsed spec Result {
+1323 silly cache add   raw: 'vue-style-loader@^4.1.2',
+1323 silly cache add   scope: null,
+1323 silly cache add   name: 'vue-style-loader',
+1323 silly cache add   rawSpec: '^4.1.2',
+1323 silly cache add   spec: '>=4.1.2 <5.0.0',
+1323 silly cache add   type: 'range' }
+1324 silly addNamed vue-style-loader@>=4.1.2 <5.0.0
+1325 verbose addNamed ">=4.1.2 <5.0.0" is a valid semver range for vue-style-loader
+1326 silly addNameRange { name: 'vue-style-loader',
+1326 silly addNameRange   range: '>=4.1.2 <5.0.0',
+1326 silly addNameRange   hasData: false }
+1327 silly mapToRegistry name vue-style-loader
+1328 silly mapToRegistry using default registry
+1329 silly mapToRegistry registry https://registry.npmjs.org/
+1330 silly mapToRegistry data Result {
+1330 silly mapToRegistry   raw: 'vue-style-loader',
+1330 silly mapToRegistry   scope: null,
+1330 silly mapToRegistry   name: 'vue-style-loader',
+1330 silly mapToRegistry   rawSpec: '',
+1330 silly mapToRegistry   spec: 'latest',
+1330 silly mapToRegistry   type: 'tag' }
+1331 silly mapToRegistry uri https://registry.npmjs.org/vue-style-loader
+1332 verbose addNameRange registry:https://registry.npmjs.org/vue-style-loader not in flight; fetching
+1333 silly cache add args [ 'webpack@^4.0.0', null ]
+1334 verbose cache add spec webpack@^4.0.0
+1335 silly cache add parsed spec Result {
+1335 silly cache add   raw: 'webpack@^4.0.0',
+1335 silly cache add   scope: null,
+1335 silly cache add   name: 'webpack',
+1335 silly cache add   rawSpec: '^4.0.0',
+1335 silly cache add   spec: '>=4.0.0 <5.0.0',
+1335 silly cache add   type: 'range' }
+1336 silly addNamed webpack@>=4.0.0 <5.0.0
+1337 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for webpack
+1338 silly addNameRange { name: 'webpack', range: '>=4.0.0 <5.0.0', hasData: false }
+1339 silly mapToRegistry name webpack
+1340 silly mapToRegistry using default registry
+1341 silly mapToRegistry registry https://registry.npmjs.org/
+1342 silly mapToRegistry data Result {
+1342 silly mapToRegistry   raw: 'webpack',
+1342 silly mapToRegistry   scope: null,
+1342 silly mapToRegistry   name: 'webpack',
+1342 silly mapToRegistry   rawSpec: '',
+1342 silly mapToRegistry   spec: 'latest',
+1342 silly mapToRegistry   type: 'tag' }
+1343 silly mapToRegistry uri https://registry.npmjs.org/webpack
+1344 verbose addNameRange registry:https://registry.npmjs.org/webpack already in flight; waiting
+1345 silly cache add args [ 'webpack-bundle-analyzer@^3.8.0', null ]
+1346 verbose cache add spec webpack-bundle-analyzer@^3.8.0
+1347 silly cache add parsed spec Result {
+1347 silly cache add   raw: 'webpack-bundle-analyzer@^3.8.0',
+1347 silly cache add   scope: null,
+1347 silly cache add   name: 'webpack-bundle-analyzer',
+1347 silly cache add   rawSpec: '^3.8.0',
+1347 silly cache add   spec: '>=3.8.0 <4.0.0',
+1347 silly cache add   type: 'range' }
+1348 silly addNamed webpack-bundle-analyzer@>=3.8.0 <4.0.0
+1349 verbose addNamed ">=3.8.0 <4.0.0" is a valid semver range for webpack-bundle-analyzer
+1350 silly addNameRange { name: 'webpack-bundle-analyzer',
+1350 silly addNameRange   range: '>=3.8.0 <4.0.0',
+1350 silly addNameRange   hasData: false }
+1351 silly mapToRegistry name webpack-bundle-analyzer
+1352 silly mapToRegistry using default registry
+1353 silly mapToRegistry registry https://registry.npmjs.org/
+1354 silly mapToRegistry data Result {
+1354 silly mapToRegistry   raw: 'webpack-bundle-analyzer',
+1354 silly mapToRegistry   scope: null,
+1354 silly mapToRegistry   name: 'webpack-bundle-analyzer',
+1354 silly mapToRegistry   rawSpec: '',
+1354 silly mapToRegistry   spec: 'latest',
+1354 silly mapToRegistry   type: 'tag' }
+1355 silly mapToRegistry uri https://registry.npmjs.org/webpack-bundle-analyzer
+1356 verbose addNameRange registry:https://registry.npmjs.org/webpack-bundle-analyzer not in flight; fetching
+1357 silly cache add args [ 'webpack-chain@^6.4.0', null ]
+1358 verbose cache add spec webpack-chain@^6.4.0
+1359 silly cache add parsed spec Result {
+1359 silly cache add   raw: 'webpack-chain@^6.4.0',
+1359 silly cache add   scope: null,
+1359 silly cache add   name: 'webpack-chain',
+1359 silly cache add   rawSpec: '^6.4.0',
+1359 silly cache add   spec: '>=6.4.0 <7.0.0',
+1359 silly cache add   type: 'range' }
+1360 silly addNamed webpack-chain@>=6.4.0 <7.0.0
+1361 verbose addNamed ">=6.4.0 <7.0.0" is a valid semver range for webpack-chain
+1362 silly addNameRange { name: 'webpack-chain',
+1362 silly addNameRange   range: '>=6.4.0 <7.0.0',
+1362 silly addNameRange   hasData: false }
+1363 silly mapToRegistry name webpack-chain
+1364 silly mapToRegistry using default registry
+1365 silly mapToRegistry registry https://registry.npmjs.org/
+1366 silly mapToRegistry data Result {
+1366 silly mapToRegistry   raw: 'webpack-chain',
+1366 silly mapToRegistry   scope: null,
+1366 silly mapToRegistry   name: 'webpack-chain',
+1366 silly mapToRegistry   rawSpec: '',
+1366 silly mapToRegistry   spec: 'latest',
+1366 silly mapToRegistry   type: 'tag' }
+1367 silly mapToRegistry uri https://registry.npmjs.org/webpack-chain
+1368 verbose addNameRange registry:https://registry.npmjs.org/webpack-chain not in flight; fetching
+1369 silly cache add args [ 'webpack-dev-server@^3.11.0', null ]
+1370 verbose cache add spec webpack-dev-server@^3.11.0
+1371 silly cache add parsed spec Result {
+1371 silly cache add   raw: 'webpack-dev-server@^3.11.0',
+1371 silly cache add   scope: null,
+1371 silly cache add   name: 'webpack-dev-server',
+1371 silly cache add   rawSpec: '^3.11.0',
+1371 silly cache add   spec: '>=3.11.0 <4.0.0',
+1371 silly cache add   type: 'range' }
+1372 silly addNamed webpack-dev-server@>=3.11.0 <4.0.0
+1373 verbose addNamed ">=3.11.0 <4.0.0" is a valid semver range for webpack-dev-server
+1374 silly addNameRange { name: 'webpack-dev-server',
+1374 silly addNameRange   range: '>=3.11.0 <4.0.0',
+1374 silly addNameRange   hasData: false }
+1375 silly mapToRegistry name webpack-dev-server
+1376 silly mapToRegistry using default registry
+1377 silly mapToRegistry registry https://registry.npmjs.org/
+1378 silly mapToRegistry data Result {
+1378 silly mapToRegistry   raw: 'webpack-dev-server',
+1378 silly mapToRegistry   scope: null,
+1378 silly mapToRegistry   name: 'webpack-dev-server',
+1378 silly mapToRegistry   rawSpec: '',
+1378 silly mapToRegistry   spec: 'latest',
+1378 silly mapToRegistry   type: 'tag' }
+1379 silly mapToRegistry uri https://registry.npmjs.org/webpack-dev-server
+1380 verbose addNameRange registry:https://registry.npmjs.org/webpack-dev-server not in flight; fetching
+1381 silly cache add args [ 'webpack-merge@^4.2.2', null ]
+1382 verbose cache add spec webpack-merge@^4.2.2
+1383 silly cache add parsed spec Result {
+1383 silly cache add   raw: 'webpack-merge@^4.2.2',
+1383 silly cache add   scope: null,
+1383 silly cache add   name: 'webpack-merge',
+1383 silly cache add   rawSpec: '^4.2.2',
+1383 silly cache add   spec: '>=4.2.2 <5.0.0',
+1383 silly cache add   type: 'range' }
+1384 silly addNamed webpack-merge@>=4.2.2 <5.0.0
+1385 verbose addNamed ">=4.2.2 <5.0.0" is a valid semver range for webpack-merge
+1386 silly addNameRange { name: 'webpack-merge',
+1386 silly addNameRange   range: '>=4.2.2 <5.0.0',
+1386 silly addNameRange   hasData: false }
+1387 silly mapToRegistry name webpack-merge
+1388 silly mapToRegistry using default registry
+1389 silly mapToRegistry registry https://registry.npmjs.org/
+1390 silly mapToRegistry data Result {
+1390 silly mapToRegistry   raw: 'webpack-merge',
+1390 silly mapToRegistry   scope: null,
+1390 silly mapToRegistry   name: 'webpack-merge',
+1390 silly mapToRegistry   rawSpec: '',
+1390 silly mapToRegistry   spec: 'latest',
+1390 silly mapToRegistry   type: 'tag' }
+1391 silly mapToRegistry uri https://registry.npmjs.org/webpack-merge
+1392 verbose addNameRange registry:https://registry.npmjs.org/webpack-merge not in flight; fetching
+1393 verbose stack Error: Unsupported URL Type: npm:vue-loader@^16.1.0
+1393 verbose stack     at parseUrl (/home/muralimanohar/node_modules/npm/node_modules/npm-package-arg/npa.js:169:13)
+1393 verbose stack     at npa (/home/muralimanohar/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+1393 verbose stack     at resolver (/home/muralimanohar/node_modules/npm/lib/install.js:845:42)
+1393 verbose stack     at Timeout._onTimeout (/home/muralimanohar/node_modules/npm/lib/install.js:840:7)
+1393 verbose stack     at ontimeout (timers.js:436:11)
+1393 verbose stack     at tryOnTimeout (timers.js:300:5)
+1393 verbose stack     at listOnTimeout (timers.js:263:5)
+1393 verbose stack     at Timer.processTimers (timers.js:223:10)
+1394 verbose cwd /home/muralimanohar/Desktop/code/or_code_project/qr_code
+1395 error Linux 5.15.0-48-generic
+1396 error argv "/usr/bin/node" "/home/muralimanohar/node_modules/.bin/npm" "install" "--loglevel" "error" "@vue/cli-plugin-babel@~4.5.15" "@vue/cli-plugin-eslint@~4.5.15" "@vue/cli-service@~4.5.15" "--save-dev"
+1397 error node v10.19.0
+1398 error npm  v2.15.12
+1399 error Unsupported URL Type: npm:vue-loader@^16.1.0
+1400 error If you need help, you may report this error at:
+1400 error     <https://github.com/npm/npm/issues>
+1401 verbose exit [ 1, true ]
